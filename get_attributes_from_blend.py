@@ -21,12 +21,14 @@ def get_indices(mode=list(bpy.context.tool_settings.mesh_select_mode).index(True
 
 
 def get_height(object_name, dim="z"):
+    obj = bpy.data.objects[object_name]
+
     if dim == "x" or dim == "X":
-        return bpy.data.objects[object_name].dimensions.x
+        return round(obj.dimensions.x, 2)
     elif dim == "y" or dim == "Y":
-        return bpy.data.objects[object_name].dimensions.y
+        return round(obj.dimensions.y, 2)
     else:
-        return bpy.data.objects[object_name].dimensions.z
+        return round(obj.dimensions.z, 2)
 
 
 def get_size(indices):
@@ -44,14 +46,31 @@ def get_size(indices):
     return length
 
 
-def get_volume():
+def get_volume(object_name):
+    obj = bpy.data.objects[object_name]
     bm = bmesh.new()
-    bm.from_object(bpy.context.object, bpy.context.evaluated_depsgraph_get())
-    volume = bm.calc_volume()
-    area = sum(f.calc_area() for f in bm.faces)
-    return volume, area
+
+    bm.from_object(obj, bpy.context.evaluated_depsgraph_get())
+    volume = round(bm.calc_volume(), 2)
+    
+    return volume
+
+
+def get_area(object_name):
+    obj = bpy.data.objects[object_name]
+    bm = bmesh.new()
+
+    bm.from_object(obj, bpy.context.evaluated_depsgraph_get())
+    area = round(sum(f.calc_area() for f in bm.faces), 2)
+    
+    return area
 
 
 if __name__ == "__main__":
-    print("indice size [m]:", get_size(get_indices()))
-    print("height [m]:", get_height("Torus"))
+    obj_name = "Cube"
+
+    if bpy.context.object.mode == "EDIT":
+        print(f"Indices size [m]: {get_size(get_indices())}")
+    print(f"Height [m]: {get_height(obj_name)}")
+    print(f"Area [m2]: {get_area(obj_name)}")
+    print(f"Volume [m3]: {get_volume(obj_name)}")

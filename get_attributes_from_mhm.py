@@ -23,8 +23,14 @@ def get_attributes(path, mods):
         return attribs
 
 
-def export_attributes(path, attribs, transpose=True):
-    with open(path, "w") as file:
+def export_attributes(attribs, path=None, transpose=True):
+    if path is None:
+        if "filename" in attributes:
+            path = f"{attributes['filename']}.csv"
+        else:
+            path = "export_attributes.csv"
+
+    with open(path, "w", newline="") as file:
         f = file
         w = csv.writer(f)
         if transpose:
@@ -50,7 +56,7 @@ if __name__ == "__main__":
 
     modifiers = get_mods(mods_file)
     attributes = get_attributes(mhm_file, modifiers)
-    export_attributes(export_file, attributes)
+    export_attributes(attributes)
     set_flag(mhm_file, "clothesHideFaces True", "clothesHideFaces False")
 
     for attribute in attributes:

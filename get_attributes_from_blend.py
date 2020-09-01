@@ -45,8 +45,11 @@ def get_size(indices):
 
 
 def get_volume():
-    # TODO
-    return None
+    bm = bmesh.new()
+    bm.from_object(bpy.context.object, bpy.context.evaluated_depsgraph_get())
+    volume = bm.calc_volume()
+    area = sum(f.calc_area() for f in bm.faces)
+    return volume, area
 
 
 if __name__ == "__main__":

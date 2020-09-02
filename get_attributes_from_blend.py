@@ -24,11 +24,11 @@ def get_height(object_name, dim="z"):
     obj = bpy.data.objects[object_name]
 
     if dim == "x" or dim == "X":
-        return round(obj.dimensions.x, 2)
+        return obj.dimensions.x
     elif dim == "y" or dim == "Y":
-        return round(obj.dimensions.y, 2)
+        return obj.dimensions.y
     else:
-        return round(obj.dimensions.z, 2)
+        return obj.dimensions.z
 
 
 def get_size(indices):
@@ -51,7 +51,7 @@ def get_volume(object_name):
     bm = bmesh.new()
 
     bm.from_object(obj, bpy.context.evaluated_depsgraph_get())
-    volume = round(bm.calc_volume(), 2)
+    volume = bm.calc_volume()
     
     return volume
 
@@ -61,16 +61,17 @@ def get_area(object_name):
     bm = bmesh.new()
 
     bm.from_object(obj, bpy.context.evaluated_depsgraph_get())
-    area = round(sum(f.calc_area() for f in bm.faces), 2)
+    area = sum(f.calc_area() for f in bm.faces)
     
     return area
 
 
 if __name__ == "__main__":
     obj_name = "Cube"
+    decimals = 2
 
     if bpy.context.object.mode == "EDIT":
-        print(f"Indices size [m]: {get_size(get_indices())}")
-    print(f"Height [m]: {get_height(obj_name)}")
-    print(f"Area [m2]: {get_area(obj_name)}")
-    print(f"Volume [m3]: {get_volume(obj_name)}")
+        print(f"Indices size: {get_size(get_indices()):.{decimals}f} m")
+    print(f"Height: {get_height(obj_name):.{decimals}f} m")
+    print(f"Area: {get_area(obj_name):.{decimals}f} m^2")
+    print(f"Volume: {get_volume(obj_name):.{decimals}f} m^3")

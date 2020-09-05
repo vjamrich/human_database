@@ -1,4 +1,5 @@
 import csv
+import json
 import fileinput
 from os.path import basename, splitext
 
@@ -6,27 +7,27 @@ from os.path import basename, splitext
 def get_mods(path):
     with open(path, "r") as file:
         f = file
-        mods = []
-        for line in f:
-            mods.append(line.rstrip())
+        mods = json.load(file)
         return mods
 
 
 def get_attributes(path, mods):
     with open(path, "r") as file:
         f = file
-        attribs = dict(filename=splitext((basename(f.name)))[0])
+        attribs = mods
+        attribs = dict(filename=splitext((basename(f.name)))[0], **attribs)
+
         for line in f:
             for mod in mods:
                 if line.find(mod) != -1:
-                    attribs[mod] = eval(line[len(mod):])
+                    attribs[mod] = eval(line[len(mod) + line.find(mod):])
         return attribs
 
 
 def export_attributes(attribs, path=None, transpose=True):
     if path is None:
-        if "filename" in attributes:
-            path = f"{attributes['filename']}.csv"
+        if "filename" in attribs:
+            path = f"{attribs['filename']}.csv"
         else:
             path = "export_attributes.csv"
 
@@ -50,7 +51,7 @@ def set_flag(path, find, replace):
 
 
 if __name__ == "__main__":
-    mods_file = "mhm test files\\mods.txt"
+    mods_file = "mhm test files\\default_modifiers.json"
     mhm_file = "mhm test files\\mass0003.mhm"
     export_file = "mhm test files\\export_attributes.csv"
 

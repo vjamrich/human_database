@@ -7,7 +7,7 @@ from os.path import basename, splitext
 def get_mods(path):
     with open(path, "r") as file:
         f = file
-        mods = json.load(file)
+        mods = json.load(f)
         return mods
 
 

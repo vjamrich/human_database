@@ -1,0 +1,14 @@
+{
+  "input path": "Input_mhm",
+  "output path": "Data",
+
+  "software": {
+    "blender 2.83 location": "C:\\Program Files\\Blender Foundation\\Blender 2.83\\blender.exe",
+    "blender 2.79 location": "D:\\HOME\\Viktor\\Python\\Human db\\blender-2.79b-windows64\\blender.exe"
+  },
+
+  "data": {
+    "modifiers": "config\\default_modifiers.json",
+    "targets": "CMU_targets"
+  }
+}

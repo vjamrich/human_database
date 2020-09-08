@@ -1,0 +1,10 @@
+{
+    "root": "Data\\2020-09-08_17-55-10",
+    "dae_faces": "Data\\2020-09-08_17-55-10\\Input\\Input_dae\\clothesHideFaces_False",
+    "dae": "Data\\2020-09-08_17-55-10\\Input\\Input_dae\\clothesHideFaces_True",
+    "mhm_faces": "Data\\2020-09-08_17-55-10\\Input\\Input_mhm\\clothesHideFaces_False",
+    "mhm": "Data\\2020-09-08_17-55-10\\Input\\Input_mhm\\clothesHideFaces_True",
+    "retarget_blend": "Data\\2020-09-08_17-55-10\\Input\\Retarget_blend",
+    "labels": "Data\\2020-09-08_17-55-10\\Export\\Labels",
+    "output": "Data\\2020-09-08_17-55-10\\Export\\Output"
+}

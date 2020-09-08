@@ -1,4 +1,6 @@
 import bpy
+import json
+import os
 
 
 def toggle_xray(state=True):
@@ -20,17 +22,39 @@ def mw_retarget(target):
     bpy.ops.mcp.load_and_retarget(filepath=target)
 
 
-_, version, _ = bpy.app.version
-import_path = "exports\\mass0005.dae"
-export_path = "exports\\mass0005.blend"
-target_path = "CMU Mocap Database\\61\\61_06.bvh"
+def get_targets(input_path):
+    bvh_files = []
+    for root, dirs, files in os.walk(input_path):
+        for file in files:
+            if file.endswith(".bvh"):
+                bvh_files.append(os.path.join(root, file))
 
-bpy.ops.wm.read_homefile(use_empty=True)
+    return bvh_files
 
-bpy.ops.wm.collada_import(filepath     = import_path,
-                          import_units = True,
-                          find_chains  = True)
 
-toggle_xray(True)
-mw_retarget(target_path)
-bpy.ops.wm.save_mainfile(filepath=export_path)
+if __name__ == "__main__":
+    with open(r"config\project_tmp.json", "r") as json_config:
+        structure = json.load(json_config)
+
+    with open(r"config\config.json", "r") as json_config:
+        config = json.load(json_config)
+
+    _, version, _ = bpy.app.version
+    dae = structure["dae"]
+    dae_faces = structure["dae_faces"]
+
+    dae_files = [os.path.join(dae, file) for file in os.listdir(dae) if file.endswith(".dae")]
+    dae_faces_files = [os.path.join(dae_faces, file) for file in os.listdir(dae_faces) if file.endswith(".dae")]
+    export_path = os.path.abspath(structure["retarget_blend"])
+    target_paths = get_targets(input_path=config["data"]["targets"])
+
+    for dae_file in dae_files:
+        name = os.path.splitext(os.path.basename(dae_file))[0]
+        export = os.path.join(export_path, name+".blend")
+        bpy.ops.wm.read_homefile(use_empty=True)
+        bpy.ops.wm.collada_import(filepath     = dae_file,
+                                  import_units = True,
+                                  find_chains  = True)
+        toggle_xray(True)
+        mw_retarget(target_paths[38])
+        bpy.ops.wm.save_mainfile(filepath=export)

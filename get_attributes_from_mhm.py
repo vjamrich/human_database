@@ -1,14 +1,16 @@
-import csv
+import os
 import json
 import fileinput
 from os.path import basename, splitext
+from datetime import datetime
 
 
 def get_mods(path):
     with open(path, "r") as file:
         f = file
         mods = json.load(f)
-        return mods
+
+    return mods
 
 
 def get_attributes(path, mods):
@@ -21,25 +23,33 @@ def get_attributes(path, mods):
             for mod in mods:
                 if line.find(mod) != -1:
                     attribs[mod] = eval(line[len(mod) + line.find(mod):])
-        return attribs
+
+    return attribs
 
 
-def export_attributes(attribs, path=None, transpose=True):
-    if path is None:
-        if "filename" in attribs:
-            path = f"{attribs['filename']}.csv"
-        else:
-            path = "export_attributes.csv"
+def export_attributes(attribs, path, transpose=True):
+    if "filename" in attribs:
+        filename = f"{attribs['filename']}_attributes.json"
+    else:
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        filename = f"{timestamp}_attributes.json"
 
-    with open(path, "w", newline="") as file:
+    path = os.path.join(path, filename)
+
+    # with open(path, "w", newline="") as file:
+    #     f = file
+    #     w = csv.writer(f)
+    #     if transpose:
+    #         w.writerows(attribs.items())
+    #     else:
+    #         w.writerow(attribs.keys())
+    #         w.writerow(attribs.values())
+
+    with open(path, "w") as file:
         f = file
-        w = csv.writer(f)
-        if transpose:
-            w.writerows(attribs.items())
-        else:
-            w.writerow(attribs.keys())
-            w.writerow(attribs.values())
-        return
+        json.dump(attribs, f, indent=4)
+
+    return
 
 
 def set_flag(path, find, replace):
@@ -47,17 +57,26 @@ def set_flag(path, find, replace):
         f = file
         for line in f:
             print(line.replace(find, replace), end='')
-        return
+
+    return
+
+
+def create_flag(path, flag):
+    with open(path, "a") as file:
+        f = file
+        f.write(flag)
+
+    return
 
 
 if __name__ == "__main__":
-    mods_file = "mhm test files\\default_modifiers.json"
+    mods_file = "config/default_modifiers.json"
     mhm_file = "mhm test files\\mass0003.mhm"
     export_file = "mhm test files\\export_attributes.csv"
 
     modifiers = get_mods(mods_file)
     attributes = get_attributes(mhm_file, modifiers)
-    export_attributes(attributes)
+    export_attributes(attributes, r".")
     set_flag(mhm_file, "clothesHideFaces True", "clothesHideFaces False")
 
     for attribute in attributes:

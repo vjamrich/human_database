@@ -1,4 +1,5 @@
 import os
+import json
 
 
 def run_blender_headless(blender_path, script_path):
@@ -7,7 +8,17 @@ def run_blender_headless(blender_path, script_path):
 
 
 if __name__ == "__main__":
-    blender = r"D:\HOME\Viktor\Python\Human db\blender-2.79b-windows64\blender.exe"
-    script = r"retarget.py"
-    run_blender_headless(blender_path = blender,
-                         script_path  = script)
+    with open(r"config\config.json", "r") as json_config:
+        config = json.load(json_config)
+
+    if config["run headless"]["retarget"]:
+        run_blender_headless(blender_path = config["software"]["blender 2.79 location"],
+                             script_path  = r"retarget.py")
+
+    if config["run headless"]["measure"]:
+        run_blender_headless(blender_path = config["software"]["blender 2.83 location"],
+                             script_path  = r"get_attributes_from_blend.py")
+
+    if config["run headless"]["render"]:
+        run_blender_headless(blender_path = config["software"]["blender 2.83 location"],
+                             script_path  = r"render.py")

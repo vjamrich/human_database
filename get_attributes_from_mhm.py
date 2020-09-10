@@ -27,27 +27,36 @@ def get_attributes(path, mods):
     return attribs
 
 
-def export_attributes(attribs, path, transpose=True):
+def export_attributes(attribs, path, file_type = "json"):
+    suffix = {"json": "attributes",
+              "mhm": "showFaces"}
+
     if "filename" in attribs:
-        filename = f"{attribs['filename']}_attributes.json"
+        filename = f"{attribs['filename']}_{suffix[file_type]}.{file_type}"
     else:
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        filename = f"{timestamp}_attributes.json"
+        filename = f"{timestamp}_attributes.{file_type}"
 
     path = os.path.join(path, filename)
 
-    # with open(path, "w", newline="") as file:
-    #     f = file
-    #     w = csv.writer(f)
-    #     if transpose:
-    #         w.writerows(attribs.items())
-    #     else:
-    #         w.writerow(attribs.keys())
-    #         w.writerow(attribs.values())
+    if file_type == "json":
+        with open(path, "w") as file:
+            f = file
+            json.dump(attribs, f, indent=4)
 
-    with open(path, "w") as file:
-        f = file
-        json.dump(attribs, f, indent=4)
+    elif file_type == "mhm":
+        header = "# Written by MakeHuman 1.2.0 beta2\n" \
+                 "version v1.2.0\n"
+        with open(path, "w") as file:
+            f = file
+            f.write(header)
+            for key, value in attribs.items():
+                if key == "filename":
+                    continue
+                f.write(f"modifier {key} {value} \n")
+
+    else:
+        raise RuntimeError(f"Invalid file_type. Use json or mhm instead of {file_type}")
 
     return
 

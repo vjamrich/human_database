@@ -10,5 +10,23 @@
   "data": {
     "modifiers": "config\\default_modifiers.json",
     "targets": "CMU_targets"
+  },
+
+  "render": {
+    "x resolution": 512,
+    "y resolution": 512,
+    "format": "PNG",
+    "engine": "BLENDER_EEVEE",
+    "colour mode": "RGB",
+    "colour depth": "8",
+    "depth map": true,
+    "alpha map": true,
+    "camera bone anchor": "Hips"
+    },
+
+  "run headless": {
+    "retarget": false,
+    "measure": false,
+    "render": true
   }
 }

@@ -40,6 +40,13 @@ def export(path, structure):
         json.dump(structure, json_project, indent=4)
 
 
+def get(path):
+    with open(path, "r") as json_project:
+        structure = json.load(json_project)
+
+    return structure
+
+
 if __name__ == "__main__":
     paths = create(root_directory=r"Data", input_mhm=r"Input_mhm")
     for p in paths:

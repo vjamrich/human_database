@@ -11,15 +11,18 @@ modifiers = get_mods(mods_file)
 
 structure.export(path=r"config", structure=struct)
 
-structure.copy_mhm(source=struct["mhm"], destination=struct["mhm_faces"])
-mhm_faces_files = [os.path.join(struct["mhm_faces"], file) for file in os.listdir(struct["mhm_faces"])]
-for mhm_faces_file in mhm_faces_files:
-    set_flag(mhm_faces_file, find="clothesHideFaces True", replace="clothesHideFaces False")
-
 for mhm_file in mhm_files:
     create_flag(path=mhm_file, flag="skeleton cmu_mb.mhskel")
+    set_flag(path=mhm_file, find="subdivide False", replace="subdivide True")
     attributes = get_attributes(path=mhm_file, mods=modifiers)
-    export_attributes(attributes, path=struct["labels"])
+
+    export_attributes(attribs   = attributes,
+                      path      = struct["labels"],
+                      file_type = "json")
+
+    export_attributes(attribs   = attributes,
+                      path      = struct["mhm_faces"],
+                      file_type = "mhm")
 
 debug = False
 if debug:

@@ -1,6 +1,7 @@
 import bpy
 import json
 import os
+from random import randint
 
 
 def toggle_xray(state=True):
@@ -33,18 +34,16 @@ def get_targets(input_path):
 
 
 if __name__ == "__main__":
-    with open(r"config\project_tmp.json", "r") as json_config:
-        structure = json.load(json_config)
-
     with open(r"config\config.json", "r") as json_config:
         config = json.load(json_config)
 
+    with open(r"config\project_tmp.json", "r") as json_project:
+        structure = json.load(json_project)
+
     _, version, _ = bpy.app.version
     dae = structure["dae"]
-    dae_faces = structure["dae_faces"]
 
     dae_files = [os.path.join(dae, file) for file in os.listdir(dae) if file.endswith(".dae")]
-    dae_faces_files = [os.path.join(dae_faces, file) for file in os.listdir(dae_faces) if file.endswith(".dae")]
     export_path = os.path.abspath(structure["retarget_blend"])
     target_paths = get_targets(input_path=config["data"]["targets"])
 
@@ -56,5 +55,5 @@ if __name__ == "__main__":
                                   import_units = True,
                                   find_chains  = True)
         toggle_xray(True)
-        mw_retarget(target_paths[38])
+        mw_retarget(target_paths[randint(0, len(target_paths))])
         bpy.ops.wm.save_mainfile(filepath=export)

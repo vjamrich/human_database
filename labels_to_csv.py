@@ -13,10 +13,10 @@ def export_to_csv(path, *args):
     for json_path in args:
         with open(json_path, "r") as file:
             json_labels = json.load(file)
-            for key, value in json_labels.items():
-                if key in modifiers_dict:
+            for key, value in modifiers_dict.items():
+                if key in json_labels:
                     labels.setdefault(modifiers_dict[key], [])
-                    labels[modifiers_dict[key]].append(value)
+                    labels[modifiers_dict[key]].append(json_labels[key])
 
     labels_rows = [row for row in map(list, zip(*labels.values()))]
     csv_writer.writerow(labels.keys())
@@ -26,8 +26,8 @@ def export_to_csv(path, *args):
 
 
 if __name__ == "__main__":
-    with open(r"config/structure.json") as json_structure:
-        structure = json.load(json_structure)
+    with open(r"config/project_tmp.json", "r") as json_project:
+        structure = json.load(json_project)
 
     json_1 = r"path.to.labels.json"
     json_2 = r"path.to.labels.json"

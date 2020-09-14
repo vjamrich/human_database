@@ -13,7 +13,8 @@ structure.export(path=r"config", structure=struct)
 
 for mhm_file in mhm_files:
     create_flag(path=mhm_file, flag="skeleton cmu_mb.mhskel")
-    set_flag(path=mhm_file, find="subdivide False", replace="subdivide True")
+    if config["render"]["subdivide"]:
+        set_flag(path=mhm_file, find="subdivide False", replace="subdivide True")
     attributes = get_attributes(path=mhm_file, mods=modifiers)
 
     export_attributes(attribs   = attributes,
@@ -30,5 +31,3 @@ if debug:
         print(file)
     for mod in modifiers:
         print(mod)
-
-# TODO maybe rename faces mhm files to {name}_showFaces

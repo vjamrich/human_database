@@ -1,10 +1,11 @@
 {
-    "root": "Data\\2020-09-10_18-27-48",
-    "dae_faces": "Data\\2020-09-10_18-27-48\\Input\\Input_dae\\clothesHideFaces_False",
-    "dae": "Data\\2020-09-10_18-27-48\\Input\\Input_dae\\clothesHideFaces_True",
-    "mhm_faces": "Data\\2020-09-10_18-27-48\\Input\\Input_mhm\\clothesHideFaces_False",
-    "mhm": "Data\\2020-09-10_18-27-48\\Input\\Input_mhm\\clothesHideFaces_True",
-    "retarget_blend": "Data\\2020-09-10_18-27-48\\Input\\Retarget_blend",
-    "labels": "Data\\2020-09-10_18-27-48\\Export\\Labels",
-    "output": "Data\\2020-09-10_18-27-48\\Export\\Output"
+    "root": "Data\\2020-09-12_10-17-51",
+    "dae_faces": "Data\\2020-09-12_10-17-51\\Input\\Input_dae\\clothesHideFaces_False",
+    "dae": "Data\\2020-09-12_10-17-51\\Input\\Input_dae\\clothesHideFaces_True",
+    "mhm_faces": "Data\\2020-09-12_10-17-51\\Input\\Input_mhm\\clothesHideFaces_False",
+    "mhm": "Data\\2020-09-12_10-17-51\\Input\\Input_mhm\\clothesHideFaces_True",
+    "retarget_blend": "Data\\2020-09-12_10-17-51\\Input\\Retarget_blend",
+    "material_blend": "Data\\2020-09-12_10-17-51\\Input\\Material_blend",
+    "labels": "Data\\2020-09-12_10-17-51\\Export\\Labels",
+    "output": "Data\\2020-09-12_10-17-51\\Export\\Output"
 }

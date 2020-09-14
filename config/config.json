@@ -13,11 +13,12 @@
   },
 
   "render": {
+    "subdivide": true,
     "x resolution": 512,
     "y resolution": 512,
     "format": "PNG",
     "engine": "BLENDER_EEVEE",
-    "colour mode": "RGB",
+    "colour mode": "RGBA",
     "colour depth": "8",
     "depth map": true,
     "alpha map": true,

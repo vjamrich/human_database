@@ -13,6 +13,7 @@ def create(root_directory = pathlib.Path(__file__).parent, input_mhm =r"Input_mh
                  "mhm_faces"     : fr"{timestamp}\Input\Input_mhm\clothesHideFaces_False",
                  "mhm"           : fr"{timestamp}\Input\Input_mhm\clothesHideFaces_True",
                  "retarget_blend": fr"{timestamp}\Input\Retarget_blend",
+                 "material_blend": fr"{timestamp}\Input\Material_blend",
                  "labels"        : fr"{timestamp}\Export\Labels",
                  "output"        : fr"{timestamp}\Export\Output"}
 

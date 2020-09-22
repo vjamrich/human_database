@@ -3,14 +3,14 @@ import csv
 import json
 
 
-def export_to_csv(path, *args):
-    with open(r"config/modifiers_dict.json", "r") as json_mods_dict:
+def export_to_csv(path, files):
+    with open(r"Data/modifiers_dict.json", "r") as json_mods_dict:
         modifiers_dict = json.load(json_mods_dict)
 
     csv_file = open(path, "w", newline="")
     csv_writer = csv.writer(csv_file)
     labels = {}
-    for json_path in args:
+    for json_path in files:
         with open(json_path, "r") as file:
             json_labels = json.load(file)
             for key, value in modifiers_dict.items():

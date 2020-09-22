@@ -1,8 +1,9 @@
 import bpy
 from mathutils import Vector
 from math import radians
-from random import randint
+import random
 import os
+import glob
 import json
 
 
@@ -14,7 +15,7 @@ def set_tracker(tracker, target):
     tracker.constraints["Track To"].track_axis = "TRACK_NEGATIVE_Z"
 
 
-def render(path, frame, engine="BLENDER_EEVEE", resolution=(512, 512), file_format="PNG", colour_mode="RGB", colour_depth=8):
+def render(path, frame, engine="BLENDER_EEVEE", resolution=(512, 512), file_format="PNG", colour_mode="RGB", colour_depth=8, compression=15):
     sc = bpy.context.scene
 
     sc.render.filepath = path
@@ -24,12 +25,10 @@ def render(path, frame, engine="BLENDER_EEVEE", resolution=(512, 512), file_form
     sc.render.image_settings.file_format = file_format
     sc.render.image_settings.color_mode = colour_mode
     sc.render.image_settings.color_depth = str(colour_depth)
-    if colour_mode == "RGBA":
-        sc.render.film_transparent = True
-    else:
-        sc.render.film_transparent = False
+    sc.render.film_transparent = True
     sc.render.resolution_percentage = 100
     sc.frame_current = frame
+    sc.render.image_settings.compression = compression
 
     sc.view_layers[0].use_pass_normal = True
     sc.view_layers[0].use_pass_z = True
@@ -136,7 +135,7 @@ def set_alpha():
         links.new(tex_image.outputs["Alpha"], bsdf.inputs["Alpha"])
 
 
-def output_passes(path, *args):
+def output_passes(path, name, *args):
     bpy.context.scene.use_nodes = True
 
     scene = bpy.data.scenes[0]
@@ -146,11 +145,22 @@ def output_passes(path, *args):
     for output_pass in args:
         file_output = node_tree.nodes.new(type="CompositorNodeOutputFile")
         file_output.base_path = path
-        file_output.file_slots[0].path = output_pass
+        file_output.file_slots[0].path = f"{name}_{output_pass}"
 
         links = node_tree.links
 
+        if output_pass == "Normal":
+            scene.view_layers["RenderLayer"].use_pass_normal = True
+        if output_pass == "Mist":
+            file_output.format.color_mode = "BW"
+            scene.view_layers["RenderLayer"].use_pass_mist = True
+        if output_pass == "Alpha":
+            file_output.format.color_mode = "BW"
+            scene.render.film_transparent = True
         if output_pass == "Depth":
+            file_output.format.color_mode = "BW"
+            scene.view_layers["RenderLayer"].use_pass_z = True
+
             normalize = node_tree.nodes.new(type="CompositorNodeNormalize")
             links.new(render_layers.outputs[output_pass], normalize.inputs[0])
             links.new(normalize.outputs[0], file_output.inputs[0])
@@ -162,14 +172,16 @@ if __name__ == "__main__":
     with open(r"config\config.json", "r") as json_config:
         config = json.load(json_config)
 
-    with open(r"config\project_tmp.json", "r") as json_project:
+    with open(r"Data\project_tmp.json", "r") as json_project:
         structure = json.load(json_project)
 
     _, version, _ = bpy.app.version
-    blend_retarget = os.path.abspath(structure["retarget_blend"])
-    blend_files = [os.path.join(blend_retarget, file) for file in os.listdir(blend_retarget) if file.endswith(".blend")]
-    dae = os.path.abspath(structure["dae"])
-    dae_files = [os.path.join(dae, file) for file in os.listdir(dae) if file.endswith(".dae")]
+    # blend_retarget = os.path.abspath(structure["retarget_blend"])
+    # blend_files = [os.path.join(blend_retarget, file) for file in os.listdir(blend_retarget) if file.endswith(".blend")]
+    blend_files = [os.path.abspath(path) for path in glob.glob(fr"{structure['retarget_blend']}/*.blend")]
+    # dae = os.path.abspath(structure["dae"])
+    # dae_files = [os.path.join(dae, file) for file in os.listdir(dae) if file.endswith(".dae")]
+    dae_files = [os.path.abspath(path) for path in glob.glob(fr"{structure['dae']}/*.dae")]
 
     for dae_file in dae_files:
         export_path = os.path.abspath(structure["material_blend"])
@@ -218,24 +230,34 @@ if __name__ == "__main__":
         armature.data.bones.active = armature.pose.bones[bone_anchor].bone
         bpy.ops.object.parent_set(type='BONE')
 
-        rot_x, rot_y, rot_z = radians(randint(0, 0)), 0, radians(randint(180, 180))
+        rot_x, rot_y, rot_z = radians(random.randint(0, 0)), 0, radians(random.randint(180, 180))
         empty.rotation_euler = (rot_x, rot_y, rot_z)
 
         bpy.ops.object.mode_set(mode="OBJECT")
-        bpy.ops.object.light_add(type='SUN', radius=1, align='WORLD', location=(0, 0, 0))
+        # bpy.ops.object.light_add(type='SUN', radius=1, align='WORLD', location=(0, 0, 0))
 
         root = os.path.dirname(__file__)
 
-        image_path = r"D:\HOME\Viktor\Python\human_database\paul_lobe_haus_1k.hdr"
+        hdris = [os.path.abspath(path) for path in glob.glob(fr"{config['data']['hdri']}/*.hdr")]
+        hdri = random.choice(hdris)
 
-        set_world(image_path, strength=0.4)
+        set_world(hdri, strength=random.uniform(0.3, 0.5))
         set_alpha()
+
+        passes = {"Alpha" : config["render"]["alpha map"],
+                  "Depth" : config["render"]["depth map"],
+                  "Normal": config["render"]["normal map"],
+                  "Mist"  : config["render"]["mist map"]}
+        args = [key for key, value in passes.items() if value]
+        output_passes(os.path.join(root, structure['output']), file_name, *args)
+
         set_render_settings()
 
         render(path         = os.path.join(root, structure['output'], file_name),
-               frame        = randint(1, 50),
+               frame        = random.randint(1, 50),
                resolution   =(config["render"]["x resolution"], config["render"]["y resolution"]),
                engine       = config["render"]["engine"],
                file_format  = config["render"]["format"],
                colour_mode  = config["render"]["colour mode"],
-               colour_depth = config["render"]["colour depth"])
+               colour_depth = config["render"]["colour depth"],
+               compression  = config["render"]["compression [%]"])

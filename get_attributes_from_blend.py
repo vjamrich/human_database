@@ -77,10 +77,10 @@ if __name__ == "__main__":
             print(get_indices())
         quit()
 
-    with open(r"config\indices.json", "r") as json_indices:
+    with open(r"Data\indices.json", "r") as json_indices:
         indices = json.load(json_indices)
 
-    with open(r"config\project_tmp.json", "r") as json_project:
+    with open(r"Data\project_tmp.json", "r") as json_project:
         structure = json.load(json_project)
 
     _, version, _ = bpy.app.version
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     dae_faces_files = [os.path.join(dae_faces, file) for file in os.listdir(dae_faces) if file.endswith(".dae")]
 
     for dae_faces_file in dae_faces_files:
-        name = os.path.splitext(os.path.basename(dae_faces_file))[0].split("_")[0]
+        name = "_".join(os.path.splitext(os.path.basename(dae_faces_file))[0].split("_")[:-1])
         bpy.ops.wm.read_homefile(use_empty=True)
         bpy.ops.wm.collada_import(filepath=dae_faces_file,
                                   import_units=False)
@@ -106,7 +106,7 @@ if __name__ == "__main__":
             attributes[key]  = f"{get_size(value):.{decimals}f}"
         attributes["Height"] = f"{get_height(obj_name):.{decimals}f}"
         attributes["Area"]   = f"{get_area(obj_name):.{decimals}f}"
-        attributes["Volume"] = f"{get_volume(obj_name):.{decimals}f}"
+        attributes["Volume"] = f"{get_volume(obj_name):.{decimals+1}f}"
 
         with open(os.path.join(structure["labels"], f"{name}_attributes.json"), "w") as json_attributes:
             json.dump(attributes, json_attributes, indent=4)

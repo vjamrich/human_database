@@ -10,7 +10,7 @@ global dae_faces
 
 root = r"D:\HOME\Viktor\Python\human_database"
 
-with open(os.path.join(root, r"config\project_tmp.json"), "r") as json_project:
+with open(os.path.join(root, r"data\project_tmp.json"), "r") as json_project:
     structure = json.load(json_project)
 
 mhm = os.path.join(root, structure["mhm"])

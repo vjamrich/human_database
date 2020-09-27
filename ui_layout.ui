@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>804</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string> Human Database</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="documentMode">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>3</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-240</y>
+         <width>545</width>
+         <height>982</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="input_header_layout">
+          <item>
+           <widget class="QLabel" name="input_header">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <italic>false</italic>
+              <bold>true</bold>
+              <strikeout>false</strikeout>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="text">
+             <string>Input</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="input_line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="input_mhm_layout">
+          <item>
+           <widget class="QLabel" name="input_mhm_label">
+            <property name="text">
+             <string>Input .mhm folder</string>
+            </property>
+            <property name="buddy">
+             <cstring>input_mhm_line_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="input_mhm_line_layout">
+            <item>
+             <widget class="QLineEdit" name="input_mhm_line_edit"/>
+            </item>
+            <item>
+             <widget class="QToolButton" name="input_mhm_tool_button">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="output_folder_layout">
+          <item>
+           <widget class="QLabel" name="output_folder_label">
+            <property name="text">
+             <string>Output folder</string>
+            </property>
+            <property name="buddy">
+             <cstring>input_mhm_line_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="output_folder_line_layout">
+            <item>
+             <widget class="QLineEdit" name="output_folder_line_edit"/>
+            </item>
+            <item>
+             <widget class="QToolButton" name="output_folder_tool_button">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontal_spacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="render_header_layout">
+          <item>
+           <widget class="QLabel" name="output_header">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Render</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="render_line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="resolution_x_layout">
+          <item>
+           <widget class="QLabel" name="resolution_x_label">
+            <property name="text">
+             <string>Resolution X</string>
+            </property>
+            <property name="buddy">
+             <cstring>resolution_x_spin_box</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="resolution_x_spin_box">
+            <property name="minimum">
+             <number>8</number>
+            </property>
+            <property name="maximum">
+             <number>16384</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+            <property name="value">
+             <number>512</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="resolution_y_layout">
+          <item>
+           <widget class="QLabel" name="resolution_y_label">
+            <property name="text">
+             <string>Resolution Y</string>
+            </property>
+            <property name="buddy">
+             <cstring>resolution_y_spin_box</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="resolution_y_spin_box">
+            <property name="minimum">
+             <number>8</number>
+            </property>
+            <property name="maximum">
+             <number>16384</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+            <property name="value">
+             <number>512</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="render_engine_layout">
+          <item>
+           <widget class="QLabel" name="render_engine_label">
+            <property name="text">
+             <string>Render Engine</string>
+            </property>
+            <property name="buddy">
+             <cstring>render_engine_combo_box</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="render_engine_combo_box">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>Eevee</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Cycles</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Workbench</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="file_format_layout">
+          <item>
+           <widget class="QLabel" name="file_format_label">
+            <property name="text">
+             <string>File Format</string>
+            </property>
+            <property name="buddy">
+             <cstring>file_format_combo_box</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="file_format_combo_box">
+            <item>
+             <property name="text">
+              <string>PNG</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>JPEG</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>TIFF</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="colour_mode_layout">
+          <item>
+           <widget class="QLabel" name="colour_mode_label">
+            <property name="text">
+             <string>Colour Mode</string>
+            </property>
+            <property name="buddy">
+             <cstring>colour_mode_combo_box</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="colour_mode_combo_box">
+            <property name="currentText">
+             <string>Black &amp; White</string>
+            </property>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>RGB</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGBA</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Black &amp; White</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="colour_depth_layout">
+          <item>
+           <widget class="QLabel" name="colour_depth_label">
+            <property name="text">
+             <string>Colour Depth</string>
+            </property>
+            <property name="buddy">
+             <cstring>colour_depth_combo_box</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="colour_depth_combo_box">
+            <item>
+             <property name="text">
+              <string>8 bit</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>16 bit</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="compression_label">
+            <property name="text">
+             <string>Compression</string>
+            </property>
+            <property name="buddy">
+             <cstring>compression_horizontal_slider</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSlider" name="compression_horizontal_slider">
+            <property name="maximum">
+             <number>100</number>
+            </property>
+            <property name="value">
+             <number>15</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="invertedControls">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontal_spacer_1">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="passes_01_layout">
+          <item>
+           <widget class="QCheckBox" name="render_check_box">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>Render</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="depth_check_box">
+            <property name="text">
+             <string>Depth map</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="passes_02_layout">
+          <item>
+           <widget class="QCheckBox" name="alpha_check_box">
+            <property name="text">
+             <string>Alpha map</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="normal_check_box">
+            <property name="text">
+             <string>Normal map</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontal_spacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="anchor_layout">
+          <item>
+           <widget class="QLabel" name="camera_anchor_label">
+            <property name="text">
+             <string>Camera anchor</string>
+            </property>
+            <property name="buddy">
+             <cstring>camera_anchor_combo_box</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="camera_anchor_combo_box">
+            <item>
+             <property name="text">
+              <string>Hips</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Head</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="subdivide_check_box">
+          <property name="text">
+           <string>Subdivide</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontal_spacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="data_header_layout">
+          <item>
+           <widget class="QLabel" name="data_header">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Data</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="data_line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="cmu_targets_layout">
+          <item>
+           <widget class="QLabel" name="cmu_targets_label">
+            <property name="text">
+             <string>CMU targets folder</string>
+            </property>
+            <property name="buddy">
+             <cstring>input_mhm_line_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="cmu_targets_line_layout">
+            <item>
+             <widget class="QLineEdit" name="cmu_targets_line_edit"/>
+            </item>
+            <item>
+             <widget class="QToolButton" name="cmu_targets_tool_button">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="hdri_layout">
+          <item>
+           <widget class="QLabel" name="hdri_label_2">
+            <property name="text">
+             <string>HDRIs folder</string>
+            </property>
+            <property name="buddy">
+             <cstring>input_mhm_line_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="hdri_line_layout">
+            <item>
+             <widget class="QLineEdit" name="hdri_line_edit"/>
+            </item>
+            <item>
+             <widget class="QToolButton" name="hdri_tool_button">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontal_spacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>476</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="software_header_layout">
+          <item>
+           <widget class="QLabel" name="software_header">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Software</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="software_line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="blender_283_layout">
+          <item>
+           <widget class="QLabel" name="blender_283_label">
+            <property name="text">
+             <string>Blender 2.83 .exe</string>
+            </property>
+            <property name="buddy">
+             <cstring>input_mhm_line_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="blender_283_line_layout">
+            <item>
+             <widget class="QLineEdit" name="blender_283_line_edit"/>
+            </item>
+            <item>
+             <widget class="QToolButton" name="blender_283_tool_button">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="blender_279_layout">
+          <item>
+           <widget class="QLabel" name="blender_279_label">
+            <property name="text">
+             <string>Blender 2.79 .exe</string>
+            </property>
+            <property name="buddy">
+             <cstring>input_mhm_line_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="blender_279_line_layout">
+            <item>
+             <widget class="QLineEdit" name="blender_279_line_edit"/>
+            </item>
+            <item>
+             <widget class="QToolButton" name="blender_279_tool_button">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="buttons_layout">
+      <property name="leftMargin">
+       <number>11</number>
+      </property>
+      <property name="rightMargin">
+       <number>11</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="load_defaults_button">
+        <property name="text">
+         <string>Load default settings</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="run_button">
+        <property name="text">
+         <string>Run</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>render_engine_combo_box</tabstop>
+  <tabstop>file_format_combo_box</tabstop>
+  <tabstop>subdivide_check_box</tabstop>
+  <tabstop>colour_mode_combo_box</tabstop>
+  <tabstop>colour_depth_combo_box</tabstop>
+  <tabstop>camera_anchor_combo_box</tabstop>
+  <tabstop>compression_horizontal_slider</tabstop>
+  <tabstop>depth_check_box</tabstop>
+  <tabstop>normal_check_box</tabstop>
+  <tabstop>alpha_check_box</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

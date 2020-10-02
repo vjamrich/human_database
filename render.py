@@ -135,12 +135,14 @@ def set_alpha():
         links.new(tex_image.outputs["Alpha"], bsdf.inputs["Alpha"])
 
 
-def output_passes(path, name, *args):
+def output_passes(path, name, file_format, *args):
     bpy.context.scene.use_nodes = True
 
     scene = bpy.data.scenes[0]
     node_tree = scene.node_tree
     render_layers = node_tree.nodes["Render Layers"]
+
+    scene.render.image_settings.file_format = file_format
 
     for output_pass in args:
         file_output = node_tree.nodes.new(type="CompositorNodeOutputFile")
@@ -249,7 +251,7 @@ def main():
                   "Normal": config["render"]["normal map"],
                   "Mist"  : config["render"]["mist map"]}
         args = [key for key, value in passes.items() if value]
-        output_passes(os.path.join(root, structure['output']), file_name, *args)
+        output_passes(os.path.join(root, structure['output']), file_name, config["render"]["format"], *args)
 
         set_render_settings()
 
@@ -265,9 +267,20 @@ def main():
 
         with open(os.path.join(structure["labels"], f"{file_name}_attributes.json"), "r") as json_attributes:
             attributes = json.load(json_attributes)
+
+        format_dict = {"TIFF": ".tif",
+                       "PNG" : ".png",
+                       "JPEG": ".jpg"}
+
         for output_pass in args:
-            attributes[output_pass] = f"{file_name}_{output_pass}{frame_number}.{config['render']['format']}"
-        attributes["Render"] = f"{file_name}.{config['render']['format']}"
+            name = fr"{file_name}_{output_pass}{str(frame_number).zfill(4)}{format_dict[config['render']['format']]}"
+            new_name = fr"{file_name}_{output_pass}{format_dict[config['render']['format']]}"
+            os.rename(os.path.join(structure["output"], name), os.path.join(structure["output"], new_name))
+
+            attributes[output_pass] = new_name
+
+        attributes["Render"] = f"{file_name}.{config['render']['format'].lower()}"
+
         with open(os.path.join(structure["labels"], f"{file_name}_attributes.json"), "w") as json_attributes:
             json.dump(attributes, json_attributes, indent=4)
 

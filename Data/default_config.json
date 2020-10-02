@@ -1,0 +1,39 @@
+{
+  "input path": "Input_mhm",
+  "output path": "Output",
+
+  "software": {
+    "blender 2.83 location": "C:\\Program Files\\Blender Foundation\\Blender 2.83\\blender.exe",
+    "blender 2.79 location": "D:\\HOME\\Viktor\\Python\\Human db\\blender-2.79b-windows64\\blender.exe"
+  },
+
+  "data": {
+    "modifiers": "Data\\default_modifiers.json",
+    "targets": "CMU_targets",
+    "hdri": "Data\\HDRI"
+  },
+
+  "render": {
+    "subdivide": false,
+
+    "x resolution": 512,
+    "y resolution": 512,
+    "format": "PNG",
+    "engine": "BLENDER_EEVEE",
+    "colour mode": "BW",
+    "colour depth": "8",
+    "camera bone anchor": "Hips",
+    "compression [%]": 15,
+
+    "alpha map": true,
+    "depth map": true,
+    "normal map": false,
+    "mist map": false
+    },
+
+  "run headless": {
+    "retarget": true,
+    "measure": true,
+    "render": true
+  }
+}

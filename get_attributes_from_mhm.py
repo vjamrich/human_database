@@ -3,6 +3,7 @@ import json
 import fileinput
 from os.path import basename, splitext
 from datetime import datetime
+from scipy.interpolate import interp1d
 
 
 def get_mods(path):
@@ -23,6 +24,15 @@ def get_attributes(path, mods):
             for mod in mods:
                 if line.find(mod) != -1:
                     attribs[mod] = eval(line[len(mod) + line.find(mod):])
+
+    with open(r"Data\modifiers_ranges.json", "r") as json_ranges:
+        ranges = json.load(json_ranges)
+
+    for key, value in attribs.items():
+        if key in ranges:
+            [range_min, range_max] = ranges[key]
+            if range_min != 0 or range_max != 1:
+                attribs[key] = round(float(interp1d([range_min, range_max], [0, 1])(value)), 6)
 
     return attribs
 

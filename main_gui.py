@@ -1,6 +1,5 @@
 from PyQt5 import QtWidgets, QtGui, uic
 from PyQt5.QtWidgets import *
-import qtmodern.styles
 import json
 import sys
 import ctypes
@@ -10,6 +9,7 @@ class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
         uic.loadUi(r"Data\ui_layout.ui", self)
+        self.setWindowIcon(QtGui.QIcon(r"Data/icon.png"))
 
         with open(r"config\config.json", "r") as json_config:
             self.config = json.load(json_config)
@@ -174,8 +174,9 @@ def main():
 
     app = QtWidgets.QApplication(sys.argv)
     try:
+        import qtmodern.styles
         qtmodern.styles.dark(app)
-    except:
+    except ImportError:
         app.setStyle("Fusion")
     window = Ui()
     app.exec_()

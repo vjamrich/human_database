@@ -6,6 +6,8 @@ with open(r"config\config.json", "r") as json_config:
     config = json.load(json_config)
 
 mods_file = config["data"]["modifiers"]
+
+print("creating file structure")
 struct = structure.create(root_directory=config["output path"], input_mhm=config["input path"])
 mhm_files = [os.path.join(struct["mhm"], file) for file in os.listdir(struct["mhm"])]
 modifiers = get_mods(mods_file)
@@ -16,6 +18,8 @@ if not mhm_files:
     raise ValueError(".mhm input files not found. Please specify path in config, or generate them using MakeHuman.")
 
 for mhm_file in mhm_files:
+    print(f"getting key attributes from {mhm_file}")
+
     create_flag(path=mhm_file, flag="skeleton cmu_mb.mhskel")
     if config["render"]["subdivide"]:
         set_flag(path=mhm_file, find="subdivide False", replace="subdivide True")
@@ -36,6 +40,8 @@ if not bvh_files:
 
 frames_dict = {}
 for f in bvh_files:
+    print(f"scanning {f}")
+
     frames = get_framerate(f)
     frames_dict[f] = frames
 

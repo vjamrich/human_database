@@ -1,5 +1,11 @@
 {
     "filename": "Filename",
+    "Render": "Render",
+    "Alpha": "Alpha map",
+    "Depth": "Depth map",
+    "Normal": "Normal map",
+    "Mist": "Mist map",
+
     "macrodetails/Gender": "Sex [0=Female, 1=male]",
     "macrodetails/Age": "Age",
 

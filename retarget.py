@@ -50,7 +50,7 @@ if __name__ == "__main__":
     _, version, _ = bpy.app.version
     dae = structure["dae"]
 
-    dae_files = [os.path.abspath(path) for path in glob.glob(fr"{dae}/*.dae")]
+    dae_files = [os.path.abspath(path) for path in glob.glob(dae + "/*.dae")]
     export_path = os.path.abspath(structure["retarget_blend"])
 
     for dae_file in dae_files:

@@ -1,8 +1,9 @@
-from PyQt5 import QtWidgets, uic
+from PyQt5 import QtWidgets, QtGui, uic
 from PyQt5.QtWidgets import *
-# import qtmodern.styles
+import qtmodern.styles
 import json
 import sys
+import ctypes
 
 
 class Ui(QtWidgets.QMainWindow):
@@ -15,7 +16,7 @@ class Ui(QtWidgets.QMainWindow):
 
         self.combo_boxes = {combo_box.objectName(): combo_box for combo_box in self.findChildren(QComboBox)}
         self.check_boxes = {check_box.objectName(): check_box for check_box in self.findChildren(QCheckBox)}
-        self.spin_boxes = {spin_boxe.objectName(): spin_boxe for spin_boxe in self.findChildren(QSpinBox)}
+        self.spin_boxes = {spin_box.objectName(): spin_box for spin_box in self.findChildren(QSpinBox)}
         self.tool_buttons = {tool_button.objectName(): tool_button for tool_button in self.findChildren(QToolButton)}
         self.push_buttons = {push_button.objectName(): push_button for push_button in self.findChildren(QPushButton)}
         self.line_edits = {line_edit.objectName(): line_edit for line_edit in self.findChildren(QLineEdit)}
@@ -26,6 +27,7 @@ class Ui(QtWidgets.QMainWindow):
             button.clicked.connect(self.open_file_dialog)
         self.push_buttons["load_defaults_button"].clicked.connect(self.warning)
         self.push_buttons["run_button"].clicked.connect(self.execute)
+        self.combo_boxes["file_format_combo_box"].currentTextChanged.connect(self.toggle_slider)
         self.slider.valueChanged.connect(self.update_slider_label)
 
         self.load_config()
@@ -34,7 +36,18 @@ class Ui(QtWidgets.QMainWindow):
         self.show()
 
     def update_slider_label(self):
-        self.slider_label.setText(f"Compression {self.slider.value()}%")
+        if self.combo_boxes["file_format_combo_box"].currentText() == "TIFF":
+            self.slider_label.setText(f"Compression (disabled)")
+        else:
+            self.slider_label.setText(f"Compression {self.slider.value()}%")
+
+    def toggle_slider(self):
+        if self.combo_boxes["file_format_combo_box"].currentText() == "TIFF":
+            self.slider.setEnabled(False)
+        else:
+            self.slider.setEnabled(True)
+
+        self.update_slider_label()
 
     def open_file_dialog(self):
         sending_button = self.sender()
@@ -61,9 +74,9 @@ class Ui(QtWidgets.QMainWindow):
     def save_config(self):
         convert = {"8 bit": "8",
                    "16 bit": "16",
-                   "Eevee": "BLENDER_EEVEE",
-                   "Cycles": "CYCLES",
-                   "Workbench": "BLENDER_WORKBENCH",
+                   "Eevee (fast, rasterization)": "BLENDER_EEVEE",
+                   "Cycles (slow, path tracing)": "CYCLES",
+                   "Workbench (fast, rasterization)": "BLENDER_WORKBENCH",
                    "RGB": "RGB",
                    "RGBA": "RGBA",
                    "Black & While": "BW"}
@@ -98,9 +111,9 @@ class Ui(QtWidgets.QMainWindow):
     def load_config(self):
         convert = {"8": "8 bit",
                    "16": "16 bit",
-                   "BLENDER_EEVEE": "Eevee",
-                   "CYCLES": "Cycles",
-                   "BLENDER_WORKBENCH": "Workbench",
+                   "BLENDER_EEVEE": "Eevee (fast, rasterization)",
+                   "CYCLES": "Cycles (slow, path tracing)",
+                   "BLENDER_WORKBENCH": "Workbench (fast, rasterization)",
                    "RGB": "RGB",
                    "RGBA": "RGBA",
                    "BW": "Black & While"}
@@ -130,15 +143,16 @@ class Ui(QtWidgets.QMainWindow):
         self.slider.setValue(self.config["render"]["compression [%]"])
 
     def warning(self):
-        msg = QMessageBox()
-        msg.setIcon(QMessageBox.Warning)
+        message = QMessageBox()
+        message.setIcon(QMessageBox.Warning)
 
-        msg.setText("Are you sure you want to load default settings? This action can't be reverted")
-        msg.setWindowTitle("Warning")
-        msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        msg.buttonClicked.connect(self.load_defaults)
+        message.setText("Are you sure you want to load default settings? This action can't be reverted")
+        message.setWindowTitle("Warning")
+        message.setWindowIcon(QtGui.QIcon(r"Data/warning_icon.png"))
+        message.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        message.buttonClicked.connect(self.load_defaults)
 
-        msg.exec_()
+        message.exec_()
 
     def load_defaults(self):
         with open(r"Data\default_config.json", "r") as json_config:
@@ -154,9 +168,15 @@ class Ui(QtWidgets.QMainWindow):
 
 
 def main():
+    # display icon on windows taskbar
+    myappid = "human_db"
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+
     app = QtWidgets.QApplication(sys.argv)
-    app.setStyle("Fusion")
-    # qtmodern.styles.dark(app)
+    try:
+        qtmodern.styles.dark(app)
+    except:
+        app.setStyle("Fusion")
     window = Ui()
     app.exec_()
 

@@ -168,7 +168,7 @@ def output_passes(path, name, *args):
             links.new(render_layers.outputs[output_pass], file_output.inputs[0])
 
 
-if __name__ == "__main__":
+def main():
     with open(r"config\config.json", "r") as json_config:
         config = json.load(json_config)
 
@@ -253,11 +253,24 @@ if __name__ == "__main__":
 
         set_render_settings()
 
+        frame_number = random.randint(1, 50)
         render(path         = os.path.join(root, structure['output'], file_name),
-               frame        = random.randint(1, 50),
+               frame        = frame_number,
                resolution   =(config["render"]["x resolution"], config["render"]["y resolution"]),
                engine       = config["render"]["engine"],
                file_format  = config["render"]["format"],
                colour_mode  = config["render"]["colour mode"],
                colour_depth = config["render"]["colour depth"],
                compression  = config["render"]["compression [%]"])
+
+        with open(os.path.join(structure["labels"], f"{file_name}_attributes.json"), "r") as json_attributes:
+            attributes = json.load(json_attributes)
+        for output_pass in args:
+            attributes[output_pass] = f"{file_name}_{output_pass}{frame_number}.{config['render']['format']}"
+        attributes["Render"] = f"{file_name}.{config['render']['format']}"
+        with open(os.path.join(structure["labels"], f"{file_name}_attributes.json"), "w") as json_attributes:
+            json.dump(attributes, json_attributes, indent=4)
+
+
+if __name__ == "__main__":
+    main()

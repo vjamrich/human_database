@@ -22,8 +22,18 @@
   <property name="windowTitle">
    <string> Human Database</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Data/icon.png</normaloff>Data/icon.png</iconset>
+  </property>
   <property name="windowOpacity">
    <double>1.000000000000000</double>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>150</width>
+    <height>150</height>
+   </size>
   </property>
   <property name="documentMode">
    <bool>true</bool>
@@ -98,6 +108,9 @@
           </item>
           <item>
            <widget class="Line" name="input_line">
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -192,6 +205,9 @@
           </item>
           <item>
            <widget class="Line" name="render_line">
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -278,17 +294,17 @@
             </property>
             <item>
              <property name="text">
-              <string>Eevee</string>
+              <string>Eevee (fast, rasterization)</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>Cycles</string>
+              <string>Cycles (slow, path tracing)</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>Workbench</string>
+              <string>Workbench (fast, rasterization)</string>
              </property>
             </item>
            </widget>
@@ -409,11 +425,20 @@
           </item>
           <item>
            <widget class="QSlider" name="compression_horizontal_slider">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
             <property name="maximum">
              <number>100</number>
             </property>
             <property name="value">
              <number>15</number>
+            </property>
+            <property name="tracking">
+             <bool>true</bool>
             </property>
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
@@ -423,6 +448,9 @@
             </property>
             <property name="invertedControls">
              <bool>false</bool>
+            </property>
+            <property name="tickPosition">
+             <enum>QSlider::NoTicks</enum>
             </property>
            </widget>
           </item>
@@ -446,7 +474,7 @@
           <item>
            <widget class="QCheckBox" name="render_check_box">
             <property name="enabled">
-             <bool>true</bool>
+             <bool>false</bool>
             </property>
             <property name="text">
              <string>Render</string>
@@ -567,6 +595,9 @@
           </item>
           <item>
            <widget class="Line" name="data_line">
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -660,6 +691,9 @@
           </item>
           <item>
            <widget class="Line" name="software_line">
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>

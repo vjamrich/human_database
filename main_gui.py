@@ -8,7 +8,7 @@ import sys
 class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
-        uic.loadUi('ui_layout.ui', self)
+        uic.loadUi(r"Data\ui_layout.ui", self)
 
         with open(r"config\config.json", "r") as json_config:
             self.config = json.load(json_config)
@@ -66,7 +66,7 @@ class Ui(QtWidgets.QMainWindow):
                    "Workbench": "BLENDER_WORKBENCH",
                    "RGB": "RGB",
                    "RGBA": "RGBA",
-                   "Black & While": "BW"}
+                   "Black & White": "BW"}
 
         self.config["input path"] = self.line_edits["input_mhm_line_edit"].text()
         self.config["output path"] = self.line_edits["output_folder_line_edit"].text()
@@ -103,7 +103,7 @@ class Ui(QtWidgets.QMainWindow):
                    "BLENDER_WORKBENCH": "Workbench",
                    "RGB": "RGB",
                    "RGBA": "RGBA",
-                   "BW": "Black & While"}
+                   "BW": "Black & White"}
 
         self.line_edits["input_mhm_line_edit"].setText(self.config["input path"])
         self.line_edits["output_folder_line_edit"].setText(self.config["output path"])

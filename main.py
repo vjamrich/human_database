@@ -44,6 +44,7 @@ for f in bvh_files:
 
     frames = get_framerate(f)
     frames_dict[f] = frames
+targets_index = generate_index(frames_dict)
 
-with open(os.path.join(r"Data", "bvh_frames_tmp.json"), "w") as json_bvh:
-    json.dump(frames_dict, json_bvh, indent=4)
+with open(os.path.join(r"Data", "bvh_index.json"), "w") as json_bvh:
+    json.dump(targets_index, json_bvh, indent=4)

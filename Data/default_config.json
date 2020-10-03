@@ -9,7 +9,7 @@
 
   "data": {
     "modifiers": "Data\\default_modifiers.json",
-    "targets": "CMU_targets",
+    "targets": "Data\\CMU_targets",
     "hdri": "Data\\HDRI"
   },
 

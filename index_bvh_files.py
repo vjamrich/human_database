@@ -1,3 +1,4 @@
+import csv
 import os
 
 
@@ -26,3 +27,25 @@ def get_framerate(path):
             #     frame_time = eval(line[len(time_find) + line.find(time_find):])
 
     return frames
+
+
+def generate_index(frames):
+    paths = {}
+    for key, value in frames.items():
+        name = os.path.splitext(os.path.basename(key))[0]
+        paths[name] = {"path": key,
+                       "frames": value}
+
+    with open(r"Data/BVH_categories.csv") as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        targets = {"Walk": {},
+                   "Run": {},
+                   "Other": {}}
+        for row in csv_reader:
+            name, label, category = row
+            if name in paths:
+                targets[category][paths[name]["path"]] = {"name"    : name,
+                                                          "label"   : label,
+                                                          "frames"  : paths[name]["frames"]}
+
+    return targets

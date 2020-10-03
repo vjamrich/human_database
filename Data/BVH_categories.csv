@@ -1,0 +1,2435 @@
+01_01,"playground - forward jumps, turn around",Other
+01_02,playground - climb,Other
+01_03,"playground - climb, hang, swing",Other
+01_04,playground - climb,Other
+01_05,"playground - climb, go under",Other
+01_06,"playground - climb, sit, dangle legs, descend",Other
+01_07,"playground - climb, sit, dangle legs, jump down",Other
+01_08,"playground - climb, sit, dangle legs, rock back, lower self to ground",Other
+01_09,"playground - climb, hang, hold self up with arms straight, swing, drop, sit, dangle legs, go under",Other
+01_10,"playground - climb, swing, lean back, drop",Other
+01_11,"playground - climb, hang, lean over, jump down",Other
+01_12,"playground - climb, pull up, dangle, sit, lower self to ground",Other
+01_13,"playground - climb, go under, jump down",Other
+01_14,"playground - climb, jump down, dangle, legs push off against",Other
+02_01,walk,Walk
+02_02,walk,Walk
+02_03,run/jog,Run
+02_04,"jump, balance",Other
+02_05,punch/strike,Other
+02_06,"bend over, scoop up, rise, lift arm",Other
+02_07,swordplay,Other
+02_08,swordplay,Other
+02_09,swordplay,Other
+02_10,wash self,Other
+03_01,walk on uneven terrain,Walk
+03_02,walk on uneven terrain,Walk
+03_03,walk on uneven terrain,Walk
+03_04,walk on uneven terrain,Walk
+05_01,walk,Walk
+05_02,"dance - expressive arms, pirouette",Other
+05_03,"dance - sideways arabesque, turn step, folding arms",Other
+05_04,"dance - sideways arabesque, folding arms, bending back",Other
+05_05,"dance - quasi-cou-de-pied, raised leg above hip-height, jete en tourant",Other
+05_06,"dance - cartwheel-like start, pirouettes, jete",Other
+05_07,"dance - small jetes, attitude/arabesque, shifted-axis pirouette, turn",Other
+05_08,"dance - rond de jambe in the air, jete, turn",Other
+05_09,"dance - glissade devant, glissade derriere, attitude/arabesque",Other
+05_10,"dance - glissade devant, glissade derriere, attitude/arabesque",Other
+05_11,"dance - sideways steps, pirouette",Other
+05_12,"dance - arms held high, pointe tendue a terre, upper body rotation",Other
+05_13,"dance - small jetes, pirouette",Other
+05_14,"dance - retire derriere, attitude/arabesque",Other
+05_15,"dance - retire derriere, attitude/arabesque",Other
+05_16,"dance - coupe dessous, jete en tourant",Other
+05_17,"dance - coupe dessous, grand jete en tourant",Other
+05_18,"dance - attitude/arabesque, jete en tourant, bending back",Other
+05_19,"dance - attitude/arabesque, jete en tourant, bending back",Other
+05_20,"dance - attitude/arabesque, jete en tourant, bending back",Other
+06_01,walk,Walk
+06_02,basketball - forward dribble,Other
+06_03,basketball - forward dribble,Other
+06_04,basketball - forward dribble,Other
+06_05,basketball - forward dribble,Other
+06_06,basketball - backward dribble,Other
+06_07,basketball - backward dribble,Other
+06_08,basketball - sideways dribble,Other
+06_09,basketball - sideways dribble,Other
+06_10,"basketball - forward dribble, 90-degree left turns",Other
+06_11,"basketball - forward dribble, 90-degree right turns",Other
+06_12,"basketball - forward dribble, 90-degree right turns, crossover dribble",Other
+06_13,"basketball - low, fast free style dribble, dribble through legs",Other
+06_14,"basketball - crossover dribble, shoot",Other
+06_15,"basketball - dribble, shoot",Other
+07_01,walk,Walk
+07_02,walk,Walk
+07_03,walk,Walk
+07_04,slow walk,Walk
+07_05,slow walk,Walk
+07_06,walk,Walk
+07_07,walk,Walk
+07_08,walk,Walk
+07_09,walk,Walk
+07_10,walk,Walk
+07_11,walk,Walk
+07_12,brisk walk,Walk
+08_01,walk,Walk
+08_02,walk,Walk
+08_03,walk,Walk
+08_04,slow walk,Walk
+08_05,walk/stride,Walk
+08_06,walk,Walk
+08_07,"walk, exaggerated stride",Walk
+08_08,walk,Walk
+08_09,walk,Walk
+08_10,walk,Walk
+08_11,slow walk/stride,Walk
+09_01,run,Run
+09_02,run,Run
+09_03,run,Run
+09_04,run,Run
+09_05,run,Run
+09_06,run,Run
+09_07,run,Run
+09_08,run,Run
+09_09,run,Run
+09_10,run,Run
+09_11,run,Run
+09_12,"navigate - walk forward, backward, sideways",Walk
+10_01,soccer - kick ball,Other
+10_02,soccer - kick ball,Other
+10_03,soccer - kick ball,Other
+10_04,walk,Walk
+10_05,soccer - kick ball,Other
+10_06,soccer - kick ball,Other
+11_01,soccer - kick ball,Other
+12_01,walk,Walk
+12_02,walk,Walk
+12_03,walk,Walk
+12_04,tai chi,Other
+13_01,"sit on high stool, stand up",Other
+13_02,"sit on high stool, stand up",Other
+13_03,"sit on high stool, stand up",Other
+13_04,"sit on stepstool, chin in hand",Other
+13_05,"sit on stepstool, hands against chin, fidget, stand up",Other
+13_06,"sit on stepstool, hands against chin, elbow out, stand up",Other
+13_07,"unscrew bottlecap, drink soda",Other
+13_08,"unscrew bottlecap, drink soda, screw on bottlecap",Other
+13_09,drink soda,Other
+13_10,"jump up to grab, reach for, tiptoe",Other
+13_11,forward jump,Other
+13_12,"jump up to grab, reach for, tiptoe",Other
+13_13,forward jump,Other
+13_14,laugh,Other
+13_15,laugh,Other
+13_16,laugh,Other
+13_17,boxing,Other
+13_18,boxing,Other
+13_19,forward jump,Other
+13_20,wash windows,Other
+13_21,wash windows,Other
+13_22,wash windows,Other
+13_23,sweep floor,Other
+13_24,sweep floor,Other
+13_25,sweep floor,Other
+13_26,"direct traffic, wave",Other
+13_27,"direct traffic, wave, point",Other
+13_28,"direct traffic, wave, point",Other
+13_29,"jumping jacks, side twists, bend over, squats",Other
+13_30,"jumping jacks, side twists, squats, jog",Other
+13_31,"jumping jacks, side twists, bend over, jog",Other
+13_32,forward jump,Other
+13_33,climb ladder,Other
+13_34,climb ladder,Other
+13_35,climb 3 steps,Other
+13_36,climb 3 steps,Other
+13_37,climb 3 steps,Other
+13_38,climb 3 steps,Other
+13_39,jump,Other
+13_40,jump,Other
+13_41,jump,Other
+13_42,jump,Other
+14_01,boxing,Other
+14_02,boxing,Other
+14_03,boxing,Other
+14_04,"drink soda, screw on bottlecap",Other
+14_05,"unscrew bottlecap, drink soda",Other
+14_06,"jumping jacks, jog, squats, side twists, stretches",Other
+14_07,"jump up to grab, reach for, tiptoe",Other
+14_08,"jump up to grab, reach for, tiptoe",Other
+14_09,"jump up to grab, reach for, tiptoe",Other
+14_10,wash windows,Other
+14_11,wash windows,Other
+14_12,wash windows,Other
+14_13,mop floor,Other
+14_14,"jumping jacks, jog, squats, side twists, stretches",Other
+14_15,mop floor,Other
+14_16,sweep floor,Other
+14_17,laugh,Other
+14_18,laugh,Other
+14_19,laugh,Other
+14_20,"jumping jacks, side twists, reach up, bend over",Other
+14_21,climb 3 steps,Other
+14_22,climb 3 steps,Other
+14_23,climb 3 steps,Other
+14_24,"direct traffic, wave, point",Other
+14_25,"direct traffic, wave, point",Other
+14_26,"direct traffic, wave, point",Other
+14_27,"sit on high stool, stand up",Other
+14_28,"sit on high stool, stand up",Other
+14_29,"sit on stepstool, stand up, swing legs",Other
+14_30,"sit on stepstool, ankle on other knee, hand on chin",Other
+14_31,"sit on stepstool, stand up",Other
+14_32,"sit on stepstool, stand up",Other
+14_33,climb ladder,Other
+14_34,climb ladder,Other
+14_35,climb ladder,Other
+14_36,"sit on stepstool, stand up",Other
+14_37,drink soda,Other
+15_01,walk/wander,Walk
+15_02,"climb, step over, sit on, stand on stepstool",Other
+15_03,walk/wander,Walk
+91_21,acheyWalk,Walk
+105_21,acheyWalk,Walk
+15_06,"lean forward, reach for",Other
+15_07,"lean forward, tiptoe, reach for",Other
+15_08,hand signals - horizontally revolve forearms,Other
+15_09,walk/wander,Walk
+15_10,"sit on high stool, stand up",Other
+15_11,"wash windows, paint figure eights; hand signals",Other
+81_18,adjust hair walk forward,Other
+15_13,boxing,Other
+15_14,walk/wander,Walk
+16_01,jump,Other
+16_02,jump,Other
+16_03,high jump,Other
+16_04,high jump,Other
+16_05,forward jump,Other
+16_06,forward jump,Other
+16_07,forward jump,Other
+16_08,"run/jog, sudden stop",Run
+16_09,forward jump,Other
+16_10,forward jump,Other
+16_11,"walk, veer left",Walk
+16_12,"walk, veer left",Walk
+16_13,"walk, veer right",Walk
+16_14,"walk, veer right",Walk
+16_15,walk,Walk
+16_16,walk,Walk
+16_17,"walk, 90-degree left turn",Walk
+16_18,"walk, 90-degree left turn",Walk
+16_19,"walk, 90-degree right turn",Walk
+16_20,"walk, 90-degree right turn",Walk
+16_21,walk,Walk
+16_22,walk,Walk
+16_23,"walk, veer left",Walk
+16_24,"walk, veer left",Walk
+16_25,"walk, veer right",Walk
+16_26,"walk, veer right",Walk
+16_27,"walk, 90-degree left turn",Walk
+16_28,"walk, 90-degree left turn",Walk
+16_29,"walk, 90-degree right turn",Walk
+16_30,"walk, 90-degree right turn",Walk
+16_31,walk,Walk
+16_32,walk,Walk
+16_33,"slow walk, stop",Walk
+16_34,"slow walk, stop",Walk
+16_35,run/jog,Run
+16_36,run/jog,Run
+16_37,"run/jog, veer left",Run
+16_38,"run/jog, veer left",Run
+16_39,"run/jog, veer right",Run
+16_40,"run/jog, veer right",Run
+16_41,"run/jog, 90-degree left turn",Run
+16_42,"run/jog, 90-degree left turn",Run
+16_43,"run/jog, 90-degree right turn",Run
+16_44,"run/jog, 90-degree right turn",Run
+16_45,run/jog,Run
+16_46,run/jog,Run
+16_47,walk,Walk
+16_48,"run, veer left",Run
+16_49,"run, veer right",Run
+16_50,"run, veer right",Run
+16_51,"run, 90-degree left turn",Run
+16_52,"run, 90-degree left turn",Run
+16_53,"run, 90-degree right turn",Run
+16_54,"run, 90-degree right turn",Run
+16_55,run,Run
+16_56,run/jog,Run
+16_57,"run/jog, sudden stop",Run
+16_58,walk,Walk
+17_01,"walk with anger, frustration",Walk
+17_02,"walk with anger, frustration",Walk
+17_03,walk stealthily,Walk
+17_04,walk stealthily,Walk
+17_05,walk/hobble,Walk
+104_44,AttitudeWalk,Walk
+104_45,AttitudeWalk8,Walk
+104_46,AttitudeWalkRightAngleTurns,Walk
+132_29,Bouncy Walk,Walk
+17_10,boxing,Other
+132_30,Bouncy Walk,Walk
+132_31,Bouncy Walk,Walk
+18_03,A pulls B; B resists (2 subjects - subject A),Other
+18_04,A pulls B; B resists (2 subjects - subject A),Other
+18_05,A pulls B by the elbow; B resists (2 subjects - subject A),Other
+18_06,A pulls B by the elbow; B resists (2 subjects - subject A),Other
+132_32,Bouncy Walk,Walk
+18_08,conversation - explain with hand gestures (2 subjects - subject A),Other
+132_33,Bouncy Walk,Walk
+18_10,quarrel - angry hand gestures (2 subjects - subject A),Other
+18_11,quarrel - angry hand gestures (2 subjects - subject A),Other
+18_12,"friends meet, hang out; A sits, B joins A (2 subjects - subject A)",Other
+18_13,"run, scramble for last seat (2 subjects - subject A)",Other
+18_14,"run, scramble for last seat (2 subjects - subject A)",Other
+18_15,chicken dance (2 subjects - subject A),Other
+132_34,Bouncy Walk,Walk
+90_27,bwk ball walk,Walk
+19_03,A pulls B; B resists (2 subjects - subject B),Other
+19_04,A pulls B; B resists (2 subjects - subject B),Other
+19_05,A pulls B by the elbow; B resists (2 subjects - subject B),Other
+19_06,A pulls B by the elbow; B resists (2 subjects - subject B),Other
+77_25,careful walk and search,Walk
+19_08,conversation - explain with hand gestures (2 subjects - subject B),Other
+77_26,careful walk and search,Walk
+19_10,quarrel - angry hand gestures (2 subjects - subject B),Other
+19_11,quarrel - angry hand gestures (2 subjects - subject B),Other
+19_12,"friends meet, hang out; A sits, B joins A (2 subjects - subject B)",Other
+19_13,"run, scramble for last seat (2 subjects - subject B)",Other
+19_14,"run, scramble for last seat (2 subjects - subject B)",Other
+19_15,chicken dance (2 subjects - subject B),Other
+20_01,chicken dance (2 subjects - subject A),Other
+77_27,careful walk and search,Walk
+91_18,CarefulWalk LookingAround,Walk
+105_18,CarefulWalk LookingAround,Walk
+93_07,Casual Walk,Walk
+20_06,soldiers march (2 subjects - subject A),Other
+20_07,soldiers march (2 subjects - subject A),Other
+20_08,zombie march (2 subjects - subject A),Other
+20_09,nursery rhyme - ring around the rosey (2 subjects - subject A),Other
+20_10,360-degree two-person whip (2 subjects - subject A),Other
+103_07,Casual Walk,Walk
+91_22,CasualQuickWalk,Walk
+20_13,blind man's bluff (blindfold tag) (2 subjects - subject A),Other
+21_01,chicken dance (2 subjects - subject B),Other
+105_22,CasualQuickWalk,Walk
+104_19,CasualWalk,Walk
+137_04,Cat Walk,Walk
+137_08,Chicken Walk,Walk
+21_06,soldiers march (2 subjects - subject B),Other
+21_07,soldiers march (2 subjects - subject B),Other
+21_08,zombie march (2 subjects - subject B),Other
+21_09,nursery rhyme - ring around the rosey (2 subjects - subject B),Other
+21_10,360-degree two-person whip (2 subjects - subject B),Other
+91_15,ClumsyWalk,Walk
+105_15,ClumsyWalk,Walk
+21_13,blind man's bluff (blindfold tag) (2 subjects - subject B),Other
+22_01,B sits; A pulls up B (2 subjects - subject A),Other
+22_02,A sits; B pulls up A (2 subjects - subject A),Other
+22_03,"A sits, holds face in hands; B kneels, comforts A (2 subjects - subject A)",Other
+22_04,"B comforts A, puts one hand on A's shoulder (2 subjects - subject A)",Other
+22_05,"A comforts B, puts both hands on B's shoulders (2 subjects - subject A)",Other
+22_06,"B comforts A, puts both hands on A's shoulders (2 subjects - subject A)",Other
+22_07,"A comforts B, puts one hand on B's shoulder (2 subjects - subject A)",Other
+82_09,confident walk forward,Walk
+22_09,"A gives B a shoulder rub; B sits, A stands (2 subjects - subject A)",Other
+22_10,"A shelters B, a younger child, from harm (2 subjects - subject A)",Other
+22_11,"B shelters A, a younger child, from harm (2 subjects - subject A)",Other
+22_12,A stumbles into B (2 subjects - subject A),Other
+22_13,A passes soda to B; both drink (2 subjects - subject A),Other
+22_14,alternating squats (2 subjects - subject A),Other
+22_15,alternating jumping jacks (2 subjects - subject A),Other
+22_16,synchronized jumping jacks (2 subjects - subject A),Other
+22_17,"rush up, arm wrestle (2 subjects - subject A)",Other
+22_18,"A stares down B, leans with hands on high stool (2 subjects - subject A)",Other
+22_19,"B stares down A, leans with hands on high stool (2 subjects - subject A)",Other
+22_20,"violence - A picks up high stool, threatens to strike B (2 subjects - subject A)",Other
+22_21,"conversation - B pounds high stool, points at A (2 subjects - subject A)",Other
+18_09,"conversation - explain with hand gestures, walk (2 subjects - subject A)",Other
+19_09,"conversation - explain with hand gestures, walk (2 subjects - subject B)",Other
+91_23,CoolWalk,Walk
+105_23,CoolWalk,Walk
+23_01,B sits; A pulls up B (subjects - subject B),Other
+23_02,A sits; B pulls up A (subjects - subject B),Other
+23_03,"A sits, holds face in hands; B kneels, comforts A (2 subjects - subject B)",Other
+23_04,"B comforts A, puts one hand on A's shoulder (2 subjects - subject B)",Other
+23_05,"A comforts B, puts both hands on B's shoulders (2 subjects - subject B)",Other
+23_06,"B comforts A, puts both hands on A's shoulders (2 subjects - subject B)",Other
+23_07,"A comforts B, puts one hand on B's shoulder (2 subjects - subject B)",Other
+91_14,DepressedWalk,Walk
+23_09,"A gives B a shoulder rub; B sits, A stands (subjects - subject B)",Other
+23_10,"A shelters B, a younger child, from harm (2 subjects - subject B)",Other
+23_11,"B shelters A, a younger child, from harm (2 subjects - subject B)",Other
+23_12,A stumbles into B (2 subjects - subject B),Other
+23_13,A passes soda to B; both drink (2 subjects - subject B),Other
+23_14,alternating squats (2 subjects - subject B),Other
+23_15,alternating jumping jacks (2 subjects - subject B),Other
+23_16,synchronized jumping jacks (2 subjects - subject B),Other
+23_17,"rush up, arm wrestle (2 subjects - subject B)",Other
+23_18,"A stares down B, leans with hands on high stool (2 subjects - subject B)",Other
+23_19,"B stares down A, leans with hands on high stool (2 subjects - subject B)",Other
+23_20,"violence - A picks up high stool, threatens to strike B (2 subjects - subject B)",Other
+23_21,"conversation - B pounds high stool, points at A (2 subjects - subject B)",Other
+105_14,DepressedWalk,Walk
+137_12,Dinosaur Walk,Walk
+91_25,DragBadLegWalk,Other
+105_25,DragBadLegWalk,Other
+24_01,"nursery rhyme - ""I'm a little teapot...""",Other
+25_01,"nursery rhyme - ""I'm a little teapot...""",Other
+26_01,walk,Walk
+26_02,basketball signals,Other
+26_03,"nursery rhyme - ""I'm a little teapot...""",Other
+26_04,"nursery rhyme - ""I'm a little teapot...""",Other
+26_05,Alaska vacation,Other
+26_06,Alaska vacation,Other
+26_07,nursery rhyme - Cock Robin,Other
+26_08,nursery rhyme - Cock Robin,Other
+26_09,"bend, pick up",Other
+26_10,"bend, lift",Other
+26_11,"bend, lift",Other
+27_01,walk,Walk
+27_02,basketball signals,Other
+27_03,"nursery rhyme - ""I'm a little teapot...""",Other
+27_04,Alaskan vacation,Other
+27_05,nursery rhyme - Cock Robin,Other
+27_06,basketball signals,Other
+27_07,"nursery rhyme - ""I'm a little teapot...""",Other
+27_08,Alaskan vacation,Other
+27_09,Alaskan vacation,Other
+27_10,nursery rhyme - Cock Robin,Other
+27_11,prairie dog (human subject),Other
+28_01,basketball signals,Other
+28_02,"nursery rhyme - ""I'm a little teapot...""",Other
+28_03,Alaskan vacation,Other
+28_04,nursery rhyme - Cock Robin,Other
+28_05,basketball signals,Other
+28_06,"nursery rhyme - ""I'm a little teapot...""",Other
+28_07,Alaskan vacation,Other
+28_08,nursery rhyme - Cock Robin,Other
+28_09,prairie dog (human subject),Other
+28_10,whale (human subject),Other
+28_11,bear (human subject),Other
+28_12,dog (human subject),Other
+28_13,snake (human subject),Other
+28_14,chicken (human subject),Other
+28_15,monkey (human subject),Other
+28_16,mouse (human subject),Other
+28_17,cat (human subject),Other
+28_18,elephant (human subject),Other
+28_19,dinosaur (human subject),Other
+29_01,walk,Walk
+29_02,basketball signals,Other
+29_03,"nursery rhyme - ""I'm a little teapot...""",Other
+29_04,Alaskan vacation,Other
+29_05,Alaskan vacation,Other
+29_06,nursery rhyme - Cock Robin,Other
+29_07,basketball signals,Other
+29_08,"nursery rhyme - ""I'm a little teapot...""",Other
+29_09,Alaskan vacation,Other
+29_10,nursery rhyme - Cock Robin,Other
+29_11,Alaskan vacation,Other
+29_12,Alaskan vacation,Other
+29_13,Alaskan vacation,Other
+29_14,prairie dog (human subject),Other
+29_15,whale (human subject),Other
+29_16,bear (human subject),Other
+29_17,dog (human subject),Other
+29_18,cat (human subject),Other
+29_19,fish (human subject),Other
+29_20,elephant (human subject),Other
+29_21,mouse (human subject),Other
+29_22,chicken (human subject),Other
+29_23,dinosaur (human subject),Other
+29_24,snake (human subject),Other
+29_25,monkey (human subject),Other
+30_01,basketball signals,Other
+30_02,"nursery rhyme - ""I'm a little teapot...""",Other
+30_03,Alaskan vacation,Other
+30_04,Alaskan vacation,Other
+30_05,nursery rhyme - Cock Robin,Other
+30_06,nursery rhyme - Cock Robin,Other
+30_07,basketball signals,Other
+30_08,"nursery rhyme - ""I'm a little teapot...""",Other
+30_09,Alaskan vacation,Other
+30_10,nursery rhyme - Cock Robin,Other
+30_11,Alaskan vacation,Other
+30_12,Alaskan vacation,Other
+30_13,prairie dog (human subject),Other
+30_14,whale (human subject),Other
+30_15,bear (human subject),Other
+30_16,dog (human subject),Other
+30_17,cat (human subject),Other
+30_18,elephant (human subject),Other
+30_19,mouse (human subject),Other
+30_20,chicken (human subject),Other
+30_21,snake (human subject),Other
+30_22,Tyrannosaurus rex (human subject),Other
+30_23,monkey (human subject),Other
+31_01,basketball signals,Other
+31_02,"nursery rhyme - ""I'm a little teapot...""",Other
+31_03,Alaskan vacation,Other
+31_04,nursery rhyme - Cock Robin,Other
+31_05,basketball signals,Other
+31_06,"nursery rhyme - ""I'm a little teapot...""",Other
+31_07,Alaskan vacation,Other
+31_08,nursery rhyme - Cock Robin,Other
+31_09,Alaskan vacation,Other
+31_10,Alaskan vacation,Other
+31_11,prairie dog (human subject),Other
+31_12,whale (human subject),Other
+31_13,bear (human subject),Other
+31_14,dog (human subject),Other
+31_15,cat (human subject),Other
+31_16,elephant (human subject),Other
+31_17,Tyrannosaurus rex (human subject),Other
+31_18,mouse (human subject),Other
+31_19,chicken (human subject),Other
+31_20,snake (human subject),Other
+31_21,monkey (human subject),Other
+32_01,walk,Walk
+32_02,walk,Walk
+32_03,basketball signals,Other
+32_04,"nursery rhyme - ""I'm a little teapot...""",Other
+32_05,Alaskan vacation,Other
+32_06,nursery rhyme - Cock Robin,Other
+32_07,basketball signals,Other
+32_08,"nursery rhyme - ""I'm a little teapot...""",Other
+32_09,Alaskan vacation,Other
+32_10,nursery rhyme - Cock Robin,Other
+32_11,Alaskan vacation,Other
+32_12,Alaskan vacation,Other
+32_13,prairie dog (human subject),Other
+32_14,bear (human subject),Other
+32_15,dog (human subject),Other
+32_16,cat (human subject),Other
+32_17,elephant (human subject),Other
+32_18,mouse (human subject),Other
+32_19,chicken (human subject),Other
+32_20,Tyrannosaurus rex (human subject),Other
+32_21,snake (human subject),Other
+32_22,monkey (human subject),Other
+33_01,"football - throw, catch (2 subjects - subject A)",Other
+33_02,"football - throw, catch, jump around (2 subjects - subject A)",Other
+34_01,"football - throw, catch (2 subjects - subject B)",Other
+34_02,"football - throw, catch, jump around (2 subjects - subject B)",Other
+35_01,walk,Walk
+35_02,walk,Walk
+35_03,walk,Walk
+35_04,walk,Walk
+35_05,walk,Walk
+35_06,walk,Walk
+35_07,walk,Walk
+35_08,walk,Walk
+35_09,walk,Walk
+35_10,walk,Walk
+35_11,walk,Walk
+35_12,walk,Walk
+35_13,walk,Walk
+35_14,walk,Walk
+35_15,walk,Walk
+35_16,walk,Walk
+35_17,run/jog,Run
+35_18,run/jog,Run
+35_19,run/jog,Run
+35_20,run/jog,Run
+35_21,run/jog,Run
+35_22,run/jog,Run
+35_23,run/jog,Run
+35_24,run/jog,Run
+35_25,run/jog,Run
+35_26,run/jog,Run
+35_27,navigate around obstacles,Other
+35_28,walk,Walk
+35_29,walk,Walk
+35_30,walk,Walk
+35_31,walk,Walk
+35_32,walk,Walk
+35_33,walk,Walk
+35_34,walk,Walk
+36_01,walk on uneven terrain,Walk
+36_02,"walk forward, turn around, walk back",Walk
+36_03,"walk forward, turn around, walk back",Walk
+36_04,walk on uneven terrain,Walk
+36_05,walk on uneven terrain,Walk
+36_06,walk on uneven terrain,Walk
+36_07,walk on uneven terrain,Walk
+36_08,walk on uneven terrain,Walk
+36_09,"walk forward, turn around, walk back",Walk
+36_10,walk on uneven terrain,Walk
+36_11,walk on uneven terrain,Walk
+36_12,walk on uneven terrain,Walk
+36_13,walk on uneven terrain,Walk
+36_14,walk on uneven terrain,Walk
+36_15,walk on uneven terrain,Walk
+36_16,walk on uneven terrain,Walk
+36_17,walk on uneven terrain,Walk
+36_18,walk on uneven terrain,Walk
+36_19,walk on uneven terrain,Walk
+36_20,walk on uneven terrain,Walk
+36_21,walk on uneven terrain,Walk
+36_22,walk on uneven terrain,Walk
+36_23,walk on uneven terrain,Walk
+36_24,walk on uneven terrain,Walk
+36_25,walk on uneven terrain,Walk
+36_26,walk on uneven terrain,Walk
+36_27,walk on uneven terrain,Walk
+36_28,walk on uneven terrain,Walk
+36_29,walk on uneven terrain,Walk
+36_30,walk on uneven terrain,Walk
+36_31,walk on uneven terrain,Walk
+36_32,walk on uneven terrain,Walk
+36_33,walk on uneven terrain,Walk
+36_34,walk on uneven terrain,Walk
+36_35,walk on uneven terrain,Walk
+36_36,walk on uneven terrain,Walk
+36_37,jump/hop on uneven terrain,Other
+37_01,slow walk,Walk
+38_01,walk,Walk
+38_02,walk,Walk
+38_03,run around in a circle,Run
+38_04,"walk around, frequent turns, cyclic walk along a line",Walk
+39_01,walk,Walk
+39_02,walk,Walk
+39_03,walk,Walk
+39_04,walk,Walk
+39_05,walk,Walk
+39_06,walk,Walk
+39_07,walk,Walk
+39_08,walk,Walk
+39_09,walk,Walk
+39_10,walk,Walk
+39_11,"walk forward, turn around, walk back",Walk
+39_12,walk,Walk
+39_13,walk,Walk
+39_14,walk,Walk
+40_02,"navigate - walk forward, backward, on a diagonal",Walk
+40_03,"navigate - walk forward, backward, on a diagonal",Walk
+40_04,"navigate - walk forward, backward, on a diagonal",Walk
+40_05,"navigate - walk forward, backward, on a diagonal",Walk
+40_06,"climb, step over, sit on, jump over stepstool",Other
+40_07,"climb, step over, jump over stepstool",Other
+40_08,"climb, step over, jump over stepstool",Other
+40_09,"climb, step over, jump over stepstool",Other
+40_10,wait for bus,Other
+40_11,wait for bus,Other
+40_12,basketball signals,Other
+41_02,"navigate - walk forward, backward, sideways, on a diagonal",Walk
+41_03,"navigate - walk forward, backward, sideways, on a diagonal",Walk
+41_04,"navigate - walk forward, backward, on a diagonal",Walk
+41_05,"navigate - walk forward, backward, on a diagonal",Walk
+41_06,"navigate - walk forward, backward, on a diagonal",Walk
+41_07,"climb, step over, jump over, navigate around stepstool",Other
+41_08,"climb, step over, jump over, navigate around stepstool",Other
+41_09,"climb, step over, jump over, navigate around stepstool",Other
+41_10,basketball signals,Other
+41_11,basketball signals,Other
+42_01,"stretch - rotate head, shoulders, arms, legs",Other
+43_01,walk,Walk
+43_02,"playground - grip bar, swing body",Other
+43_03,"playground - grip bar, swing body",Other
+45_01,walk,Walk
+46_01,walk,Walk
+47_01,"walk forward, turn around, walk back",Walk
+49_01,walk,Walk
+49_02,"jump up and down, hop on one foot",Other
+49_03,"jump up and down, hop on one foot",Other
+49_04,"run, leap",Run
+49_05,"run, leap",Run
+49_06,cartwheel,Other
+49_07,cartwheel,Other
+49_08,cartwheels,Other
+49_09,"dance - arms held high, side arabesque",Other
+49_10,"dance - fold in from side arabesque, curl inwards",Other
+49_11,"dance - fold in from side arabesque, curl inwards",Other
+49_12,"dance - lean forward, bring back leg forward, arching arms",Other
+49_13,"dance - fold in from side arabesque, curl inwards",Other
+49_14,"dance - lean forward, bring back leg forward, arching arms",Other
+49_15,"static dance pose - folded in, head lowered, leg bent",Other
+49_16,"dance - fold in from side arabesque, curl inwards",Other
+49_17,"dance - lean forward, bring back leg forward, arching arms",Other
+49_18,"balance on one leg, outstretched arms",Other
+49_19,"balance on one leg, outstretched arms",Other
+49_20,"balance on one leg, outstretched arms",Other
+49_21,"acrobatics - spin/twirl, hang on ropes",Other
+49_22,"dance - lean back on bent leg, balance, bend elbow by ear",Other
+54_01,monkey (human subject),Other
+54_02,bear (human subject),Other
+54_03,penguin (human subject),Other
+54_04,pterosaur (human subject),Other
+54_05,pterosaur (human subject),Other
+54_06,pterosaur (human subject),Other
+54_07,prairie dog (human subject),Other
+54_08,roadrunner (human subject),Run
+54_09,insect/praying mantis (human subject),Other
+54_10,ghost (human subject),Other
+54_11,penguin (human subject),Other
+54_12,dragon (human subject),Other
+54_13,dragon (human subject),Other
+54_14,monkey (human subject),Other
+54_15,prairie dog (human subject),Other
+54_16,superhero,Other
+54_17,squirrel (human subject),Other
+54_18,squirrel (human subject),Other
+54_19,squirrel - robotic like motion (human subject),Other
+54_20,"follow path, walk around obstacles",Walk
+54_21,"follow path, walk around obstacles",Walk
+54_22,"follow path, walk around obstacles",Walk
+54_23,monkey (human subject),Other
+54_24,hummingbird (human subject),Other
+54_25,chicken (human subject),Other
+54_26,chicken (human subject),Other
+54_27,chicken (human subject),Other
+55_01,"dance, whirl",Other
+55_02,lambada dance,Other
+55_03,genie (human subject),Other
+55_04,walk,Walk
+55_05,hummingbird (human subject),Other
+55_06,chicken (human subject),Other
+55_07,chicken (human subject),Other
+55_08,monkey (human subject),Other
+55_09,monkey (human subject),Other
+55_10,hummingbird (human subject),Other
+55_11,animal (human subject),Other
+55_12,dancing bear (human subject),Other
+55_13,insect/praying mantis (human subject),Other
+55_14,prairie dog (human subject),Other
+55_15,roadrunner (human subject),Run
+55_16,panda (human subject),Other
+55_17,ghost (human subject),Other
+55_18,penguin (human subject),Other
+55_19,dragon (human subject),Other
+55_20,hippo ballerina (human subject),Other
+55_21,pterosaur (human subject),Other
+55_22,superhero,Other
+55_23,devil,Other
+55_24,various animals (human subject),Other
+55_25,dancing animal (human subject),Other
+55_26,monkey (human subject),Other
+55_27,dancing ant (human subject),Other
+55_28,monkey/bear (human subject),Other
+56_01,walk around,Walk
+56_02,"vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall",Other
+56_03,"vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip",Other
+56_04,"vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump",Walk
+56_05,"vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch",Walk
+56_06,"vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound",Walk
+56_07,"vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt",Walk
+56_08,"vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch",Walk
+60_01,salsa dance,Other
+60_02,salsa dance,Other
+60_03,salsa dance,Other
+60_04,salsa dance,Other
+60_05,salsa dance,Other
+60_06,salsa dance,Other
+60_07,salsa dance,Other
+60_08,salsa dance,Other
+60_09,salsa dance,Other
+60_10,salsa dance,Other
+60_11,salsa dance,Other
+60_12,salsa dance,Other
+60_13,salsa dance,Other
+60_14,salsa dance,Other
+60_15,salsa dance,Other
+61_01,salsa dance,Other
+61_02,salsa dance,Other
+61_03,salsa dance,Other
+61_04,salsa dance,Other
+61_05,salsa dance,Other
+61_06,salsa dance,Other
+61_07,salsa dance,Other
+61_08,salsa dance,Other
+61_09,salsa dance,Other
+61_10,salsa dance,Other
+61_11,salsa dance,Other
+61_12,salsa dance,Other
+61_13,salsa dance,Other
+61_14,salsa dance,Other
+61_15,salsa dance,Other
+62_01,"bolt loosening, wrench",Other
+62_02,"bolt tightening, wrench",Other
+62_03,"sawing, hand saw",Other
+62_04,screwing,Other
+62_05,screwing,Other
+62_06,unscrewing,Other
+62_07,hammering a nail,Other
+62_08,hammering a nail,Other
+62_09,pulling a nail,Other
+62_10,hammering sequence,Other
+62_11,cleaning up,Other
+62_12,hard days drink,Other
+62_13,moving a stool,Other
+62_14,opening umbrella,Other
+62_15,opening umbrella,Other
+62_16,closing umbrella,Other
+62_17,opening and closing umbrella,Other
+62_18,closing a box,Other
+62_19,opening a box,Other
+62_20,"closing, moving and opening a box",Other
+62_21,coiling a rope,Other
+62_22,dynamic calibration,Other
+62_23,bolt tightening,Other
+62_24,"bolt tightening, with putting bolt in",Other
+62_25,"bolt loosening, wrench",Other
+63_01,Swing,Other
+64_01,Swing,Other
+64_02,Swing,Other
+64_03,Swing,Other
+64_04,Swing,Other
+64_05,Swing,Other
+64_06,Swing,Other
+64_07,Swing,Other
+64_08,Swing,Other
+64_09,Swing,Other
+64_10,Swing,Other
+64_11,Putt,Other
+64_12,Putt,Other
+64_13,Putt,Other
+64_14,Putt,Other
+64_15,Putt,Other
+64_16,Placing Tee,Other
+64_17,Placing Tee,Other
+64_18,Placing Tee,Other
+64_19,Placing Tee,Other
+64_20,Placing Tee,Other
+64_21,Placing Ball,Other
+64_22,Placing Ball,Other
+64_23,Placing Ball,Other
+64_24,Placing Ball,Other
+64_25,Placing Ball,Other
+64_26,Picking up Ball,Other
+64_27,Picking up Ball,Other
+64_28,Picking up Ball,Other
+64_29,Picking up Ball,Other
+64_30,Picking up Ball,Other
+69_01,walk forward,Walk
+69_02,walk forward,Walk
+69_03,walk forward,Walk
+69_04,walk forward,Walk
+69_05,walk forward,Walk
+69_06,walk and turn (repeated),Walk
+69_07,walk and turn (repeated),Walk
+69_08,walk and turn (repeated),Walk
+69_09,walk and turn (repeated),Walk
+69_10,walk and turn (repeated),Walk
+69_11,walk and turn (repeated),Walk
+69_12,walk and turn both directions (repeated),Walk
+69_13,"walk, turn in place (repeated)",Walk
+69_14,"walk, turn in place (repeated)",Walk
+69_15,"walk, turn in place (repeated)",Walk
+69_16,turn in place,Other
+69_17,turn in place,Other
+69_18,turn in place (opposite direction),Other
+69_19,turn in place (opposite direction),Other
+69_20,walk forward 90 degree right turn,Walk
+69_21,walk forward 90 degree right turn,Walk
+69_22,walk forward 90 degree right turn,Walk
+69_23,walk forward 90 degree right turn,Walk
+69_24,walk forward 90 degree left turn,Walk
+69_25,walk forward 90 degree left turn,Walk
+69_26,walk forward 90 degree left turn,Walk
+69_27,walk forward 90 degree left turn,Walk
+69_28,walk forward 90 degree smooth right turn,Walk
+69_29,walk forward 90 degree smooth right turn,Walk
+69_30,walk forward 90 degree smooth right turn,Walk
+69_31,walk forward 90 degree smooth left turn,Walk
+69_32,walk forward 90 degree smooth left turn,Walk
+69_33,walk forward 90 degree smooth left turn,Walk
+69_34,walk backwards and turn,Walk
+69_35,walk backwards and turn,Walk
+69_36,walk backwards and turn,Walk
+69_37,walk backwards and turn,Walk
+69_38,walk backwards and turn (repeated),Walk
+69_39,"walk backward, turn in place",Walk
+69_40,"walk backward, turn in place",Walk
+69_41,"walk backward, turn in place",Walk
+69_42,walk sideways and turn (repeated),Walk
+69_43,walk sideways and turn (repeated),Walk
+69_44,walk sideways and turn (repeated),Walk
+69_45,walk sideways and turn (repeated),Walk
+69_46,walk sideways and turn (repeated),Walk
+69_47,walk sideways and turn (repeated),Walk
+69_48,walk sideways and turn (opposite direction),Walk
+69_49,walk sideways and turn (opposite direction),Walk
+69_50,walk sideways and backwards,Walk
+69_51,walk backwards and turn,Walk
+69_52,walk backwards and turn,Walk
+69_53,walk backwards and turn,Walk
+69_54,walk backwards and turn,Walk
+69_55,walk backwards and turn,Walk
+69_56,walk sideways and turn (opposite direction),Walk
+69_57,walk sideways and turn (opposite direction),Walk
+69_58,walk sideways and turn (opposite direction),Walk
+69_59,walk sideways and turn,Walk
+69_60,walk sideways and turn,Walk
+69_61,walk sideways and turn,Walk
+69_62,walk sideways and turn (opposite direction),Walk
+69_63,walk sideways and turn (opposite direction),Walk
+69_64,walk sideways and turn (opposite direction),Walk
+69_65,walk sideways and turn,Walk
+69_66,walk sideways and turn,Walk
+69_67,walk sideways and turn,Walk
+104_12,ExcitedWalk,Walk
+81_01,fix hair and walk forward,Other
+104_03,"Frankenstein male walk, exact footfalls",Other
+90_25,fwd ball walk,Walk
+90_26,fwd ball walk,Walk
+137_20,Gangly Teen Walk,Walk
+91_28,GhettoWalk,Walk
+105_28,GhettoWalk,Walk
+70_01,carry 5.5lb suitcase,Other
+70_02,carry 5.5lb suitcase,Other
+70_03,carry 19.5lb suitcase,Other
+70_04,carry 19.5lb suitcase,Other
+70_05,carry 19.5lb suitcase,Other
+70_06,carry 19.5lb suitcase,Other
+70_07,carry 19.5lb suitcase,Other
+70_08,carry 19.5lb suitcase,Other
+70_09,carry 19.5lb suitcase,Other
+70_10,carry 12.5lb suitcase,Other
+70_11,carry 12.5lb suitcase,Other
+70_12,carry 12.5lb suitcase,Other
+70_13,carry 12.5lb suitcase,Other
+74_01,stiff walk,Walk
+74_02,stiff walk,Walk
+74_03,kick,Other
+74_04,kick,Other
+74_05,kick,Other
+74_06,kick,Other
+74_07,lifting up,Other
+74_08,lifting up,Other
+74_09,Unknown,Other
+74_10,peeping,Other
+74_11,peeping,Other
+74_12,thinker,Other
+74_13,Range of motion,Other
+74_14,slope 1,Other
+74_15,slope1,Other
+74_16,slope 2,Other
+74_17,slope 2,Other
+74_18,slope 3,Other
+74_19,slope 3,Other
+74_20,stiff walk,Walk
+75_01,run jump,Run
+75_02,run jump,Run
+75_03,run jump,Run
+75_04,wide leg run,Run
+75_05,cross leg run,Run
+75_06,180 jump,Other
+75_07,angle jumps,Other
+75_08,360 jumps,Other
+75_09,360 jump,Other
+75_10,2 jump,Other
+75_11,2 jump,Other
+75_12,box jump,Other
+75_13,hopscotch,Other
+75_14,hopscotch,Other
+75_15,long jumps,Other
+75_16,jump kick,Other
+75_17,medium sit,Other
+75_18,high sit,Other
+75_19,medium sit,Other
+75_20,low sit,Other
+137_24,Graceful Lady Walk,Walk
+82_12,happy or fast walk forward,Walk
+76_03,avoid attacker,Other
+76_04,defensive guard pose,Other
+76_05,swatting at pesky bug,Other
+76_06,avoid stepping on something,Other
+76_07,Unknown,Other
+76_08,careful stepping over things,Other
+104_11,HappyGoLuckWalk,Walk
+76_10,turning,Other
+76_11,quick large steps backwards,Other
+77_01,looking around,Other
+77_02,standing,Other
+77_03,ready stance,Other
+77_04,Looking around,Other
+77_05,look around with flashlight,Other
+77_06,searching ground,Other
+77_07,poking ground,Other
+77_08,investigating thing on ground with two hands,Other
+77_09,duck to avoid flying object,Other
+77_10,careful run,Run
+77_11,careful run,Run
+77_12,careful run in circle,Run
+77_13,careful run in figure eight,Run
+77_14,careful creeping,Other
+77_15,careful creeping,Other
+77_16,"laying down, getting up, careful ready pose",Other
+77_17,"laying down, getting up, careful ready pose",Other
+77_18,"laying down on back, getting up, careful ready pose",Other
+77_19,"limping, hurt right leg",Other
+77_20,"limping, hurt right leg",Other
+77_21,stretching,Other
+77_22,"limping, hurt right leg",Other
+77_23,"limping, hurt right leg",Other
+77_24,"limping, hurt right leg",Other
+104_14,HappyStartWalk,Walk
+20_11,"high-five, walk (2 subjects - subject A)",Other
+21_11,"high-five, walk (2 subjects - subject B)",Other
+77_28,careful walk,Walk
+77_29,creeping walk,Walk
+77_30,creeping walk,Walk
+77_31,silent walk,Walk
+77_32,creeping walk,Walk
+77_33,creeping with limp,Other
+77_34,"creep and pause, repeat",Other
+78_01,LeftTightTurn         CleanedGRS,Other
+78_02,RightWideTurn            CleanedGRS,Other
+78_03,LeftWideTurn     CleanedGRS,Other
+78_04,SuperTightLeft        CleanedGRS,Other
+78_05,SuperTightRight         CleanedGRS,Other
+78_06,RunningStraight       CleanedGRS,Run
+78_07,RunningWideRight       CleanedGRS,Run
+78_08,RunningWideLeft      CleanedGRS,Run
+78_09,RunningTigherLeft      CleanedGRS,Run
+78_10,RunningTighterRight      CleanedGRS,Run
+78_11,calibration,Other
+78_12,RunningNoBall     CleanedGRS,Run
+78_13,OffensiveMoveSpinLeft            CleanedGRS,Other
+78_14,OffensiveMoveSpinLeft      CleanedGRS,Other
+78_15,OffensiveMoveGoRight     CleanedGRS,Other
+78_16,OffensiveMoveGoLeft         CleanedGRs,Other
+78_17,OffensiveMoveSpinRight             CleanedGRS,Other
+22_08,"hold hands, swing arms, walk (2 subjects - subject A)",Walk
+23_08,"hold hands, swing arms, walk (2 subjects - subject B)",Walk
+78_20,FeintLeftMoveRight            CleanedGRS,Other
+78_21,FeintRightMoveLeft      CleanedGRS,Other
+78_22,FakeShotBreakRight     CleanedGRs,Other
+78_23,FakeShotBreakLeft            CleanedGRS,Other
+78_24,DefensiveStraightNoStop          CleanedGRS,Other
+78_25,DefensiveStraightWithStop          CleanedGRS,Other
+78_26,DefensiveRightStopToStop           CleanedGRS,Other
+78_27,DefensiveLeftStopToStop              CleanedGRS,Other
+78_28,DefensiveMoveZigZag           CleanedGRS,Other
+78_29,DefensiveMoveSideToSide           CleanedGRS,Other
+78_30,DefensiveMoveSideToSide           CleanedGRS,Other
+78_31,Pivoting     CleanedGRS,Other
+78_32,SraightDriveFromStop          Cleaned GRS,Other
+78_33,RightDrive (left then right)    Cleaned GRS,Other
+78_34,LeftDrive (right then left)    Cleaned GRS,Other
+78_35,RightTightTurn    CleanedGRS,Other
+79_01,chopping wood,Other
+79_02,swimming,Other
+79_03,swimming,Other
+79_04,digging,Other
+79_05,sewing,Other
+79_06,hand shake,Other
+79_07,lost marker,Other
+79_08,boxing,Other
+79_09,slicing bread,Other
+79_10,chopping onions,Other
+79_11,Subject calibration,Other
+79_12,eating dinner,Other
+79_13,mixing batter,Other
+79_14,making dough,Other
+79_15,eating a sandwich,Other
+79_16,buying something,Other
+79_17,playing violin,Other
+79_18,playing drums,Other
+79_19,playing piano,Other
+79_20,hanging a picture,Other
+79_21,putting on a pull over,Other
+79_22,range of motion,Other
+79_23,putting on a jacket,Other
+79_24,putting on button up sweater,Other
+79_25,moving heavy box,Other
+79_26,planting a tree,Other
+79_27,planting a plant,Other
+79_28,putting on a ball cap,Other
+79_29,putting on a dress,Other
+79_30,pushing a swing,Other
+79_31,writing on a chalkboard,Other
+79_32,writing on a chalkboard,Other
+79_33,chug a beer,Other
+79_34,fishing,Other
+79_35,fishing,Other
+79_36,answering the phone,Other
+79_37,dialing phone,Other
+79_38,drinking water,Other
+79_39,sipping martinee,Other
+79_40,drinking a soda,Other
+79_41,sipping coffee,Other
+79_42,eating soup,Other
+79_43,painting,Other
+79_44,washing a window,Other
+79_45,bear,Other
+79_46,bear,Other
+79_47,chicken,Other
+79_48,elephant,Other
+79_49,monkey,Other
+79_50,mouse,Other
+79_51,chipmunk,Other
+79_52,prairie dog,Other
+79_53,dog,Other
+79_54,snake,Other
+79_55,sweeping,Other
+79_56,T-rex,Other
+79_57,fish,Other
+79_58,bird,Other
+79_59,cat,Other
+79_60,chicken,Other
+79_61,cow,Other
+79_62,chicken,Other
+79_63,tiger,Other
+79_64,penguin,Other
+79_65,horse,Other
+79_66,movie and trial dont match,Other
+79_67,no movie,Other
+79_68,cold,Other
+79_69,very happy,Other
+79_70,laughing,Other
+79_71,sad,Other
+79_72,crying,Other
+79_73,scared,Other
+79_74,upset,Other
+79_75,channel surfing,Other
+79_76,driving,Other
+79_77,vacuuming,Other
+79_78,taking a movie,Other
+79_79,putting on headphones,Other
+79_80,using a palm pilot,Other
+79_81,brushing teeth,Other
+79_82,putting on deoderant,Other
+79_83,shaving,Other
+79_84,combing hair,Other
+79_85,typing on a laptop,Other
+79_86,shooting bow and arrow,Other
+79_87,raking,Other
+79_88,swatting at a fly,Other
+79_89,holding a baby,Other
+79_90,washing,Other
+79_91,football,Other
+79_92,frisbee,Other
+79_93,weight lifting,Other
+79_94,flexing,Other
+79_95,rowing,Other
+79_96,shooting a gun,Other
+80_01,shaking hands,Other
+80_02,chopping onions,Other
+80_03,shooting a gun,Other
+80_04,sewing,Other
+80_05,digging a hole,Other
+80_06,paying for something,Other
+80_07,hanging picture,Other
+80_08,picking up something,Other
+80_09,planting a flower,Other
+80_10,boxing,Other
+80_11,putting on a sweater,Other
+80_12,fishing,Other
+80_13,drumming,Other
+80_14,teaching,Other
+80_15,putting on a coat,Other
+80_16,mixing batter,Other
+80_17,hand mixing dough,Other
+80_18,vacuuming,Other
+80_19,pushing broom,Other
+80_20,planting,Other
+80_21,pushing swing,Other
+80_22,putting on a hat,Other
+80_23,putting on a skirt,Other
+80_24,eating,Other
+80_25,answering a phone,Other
+80_26,dialing phone,Other
+80_27,setting glass of water,Other
+80_28,drinking and smoking,Other
+80_29,chugging,Other
+80_30,range of motion,Other
+80_31,making coffee,Other
+80_32,slicing,Other
+80_33,eating soup,Other
+80_34,rake leaves,Other
+80_35,putting on headphones,Other
+80_36,violin,Other
+80_37,TV,Other
+80_38,driving,Other
+80_39,Unknown,Other
+80_40,drinking from bottle,Other
+80_41,freezing,Other
+80_42,freezing,Other
+80_43,happy,Other
+80_44,laughing,Other
+80_45,crying,Other
+80_46,crying,Other
+80_47,Unknown,Other
+80_48,arguing,Other
+80_49,gorilla,Other
+80_50,cleaning window,Other
+80_51,chicken,Other
+80_52,dog,Other
+80_53,elephant,Other
+80_54,monkey,Other
+80_55,mouse,Other
+80_56,chip monk,Other
+80_57,prairie dog,Other
+80_58,snake,Other
+80_59,panther,Other
+80_60,Unknown,Other
+80_61,sweeping,Other
+80_62,bird,Other
+80_63,chicken,Other
+80_64,cat,Other
+80_65,fish,Other
+80_66,Unknown,Other
+80_67,Unknown,Other
+80_68,Unknown,Other
+80_69,painting,Other
+80_70,piano,Other
+80_71,chopping wood,Other
+80_72,swimming,Other
+80_73,shaking hands,Other
+91_24,HurtLegWalk,Walk
+81_02,walk forward,Walk
+81_03,walk,Walk
+81_04,walk at a brisk pace,Walk
+81_05,push heavy object,Other
+81_06,push heavy box,Other
+81_07,pull heavy object,Other
+81_08,drag heavy object,Other
+81_09,drag heavy object,Other
+81_10,push object that is high in air,Other
+81_11,push object that is high in air,Other
+81_12,jump backwards off ledge,Other
+81_13,jump backwards off ledge,Other
+81_14,climb backwards off ledge,Other
+81_15,climb backwards off ledge,Other
+81_16,Unknown,Other
+81_17,walk forward,Walk
+105_24,HurtLegWalk,Walk
+82_01,Static pose,Other
+82_02,Jump off ledge,Other
+82_03,Jump off ledge,Other
+82_04,Jump off ledge,Other
+82_05,sitting on ground relaxing,Other
+82_06,Pushing on heavy object,Other
+82_07,Pushing on heavy object,Other
+91_26,HurtStomachWalk,Walk
+105_26,HurtStomachWalk,Walk
+82_10,sad walk forward,Walk
+82_11,normal walk forward,Walk
+91_11,LavishWalk,Walk
+82_13,normal walk forward,Walk
+82_14,walk forward and slow down,Walk
+82_15,walk forward and turn sideways,Walk
+82_16,bang on high object,Other
+82_17,bang on high object,Other
+82_18,static pose,Other
+83_01,large sidestep to right,Other
+83_02,sidestep to the right and up a ledge,Other
+83_03,large step to a short ledge,Other
+83_04,large sidestep to right,Other
+83_05,very large sidestep to right,Other
+83_06,very large sidestep to right and down,Other
+83_07,short sidestep to right and down,Other
+83_08,medium step forward and down,Other
+83_09,short step forward and down,Other
+83_10,medium step forward and down,Other
+83_11,static pose,Other
+83_12,medium sidestep to right and down,Other
+83_13,large sidestep to right,Other
+83_14,short sidestep to left and down,Other
+83_15,short step forward,Other
+83_16,medium sidestep to left and down,Other
+83_17,medium step to left and down,Other
+83_18,short step to left and forward,Other
+83_19,medium sidestep to left,Other
+83_20,medium step forward,Other
+83_21,large step to left and forward,Other
+83_22,stretching,Other
+83_23,short sidestep to left and up,Other
+83_24,medium step to left and up,Other
+83_25,short step forward and up,Other
+83_26,"medium step to left, forward, and up",Other
+105_11,LavishWalk,Walk
+20_02,"link arms, walk (2 subjects - subject A)",Walk
+20_03,"link arms, walk (2 subjects - subject A)",Walk
+21_02,"link arms, walk (2 subjects - subject B)",Walk
+21_03,"link arms, walk (2 subjects - subject B)",Walk
+20_12,"low-five, walk (2 subjects - subject A)",Walk
+83_33,sidestep to right then back to left,Other
+21_12,"low-five, walk (2 subjects - subject B)",Walk
+91_33,MachoWalk,Walk
+105_33,MachoWalk,Walk
+120_09,Mickey sneaking walk,Walk
+120_10,Mickey sneaking walk,Walk
+120_11,Mickey sneaking walk,Walk
+83_40,hop forward,Other
+83_41,hop forward,Other
+83_42,long jump forward,Other
+83_43,long jump forward,Other
+83_44,medium step forward,Other
+83_45,hop forward,Other
+83_46,medium hop forward,Other
+83_47,long jump forward,Other
+83_48,short hop forward,Other
+83_49,medium hop forward,Other
+83_50,long jump forward,Other
+83_51,hop turn 90 degrees left in air,Other
+83_52,hop turn 90 degrees left in air,Other
+83_53,hop turn 90 degrees left in air,Other
+83_54,hop turn 180 degrees left in air,Other
+83_55,medium sidestep to right,Other
+83_56,hop turn left 180 degrees in air,Other
+83_57,hop turn left 180 degrees in air,Other
+83_58,hop turn left 270 degrees in air,Other
+83_59,hop turn left 270 degrees in air,Other
+83_60,hop turn left 270 degrees in air,Other
+83_61,hop turn 360 degrees left in air,Other
+83_62,hop turn left 360 degrees in air,Other
+83_63,large sidestep to right and forward,Other
+83_64,hop and turn right 360 degrees in air,Other
+83_65,hop and turn right 360 degrees in air,Other
+83_66,short sidestep to right,Other
+83_67,short sidestep to the right,Other
+83_68,medium sidestep to right,Other
+85_01,JumpTwist,Other
+85_02,JumpTwist,Other
+85_03,UpRightSequence,Other
+85_04,FancyFootWork,Other
+85_05,HandStandKicks,Other
+85_06,KickFlip,Other
+85_07,KickFlipStumble,Other
+85_08,Helicopter,Other
+85_09,motorcycle pose,Other
+85_10,EndofBreakDance,Other
+85_11,UpRightSequence,Other
+85_12,LongSequenceGood,Other
+85_13,BadStartSequnce,Other
+85_14,BreakSequencewithFlips,Other
+85_15,90TwistsFall,Other
+86_01,jumps kicks and punches,Other
+120_12,Mickey sneaking walk,Walk
+120_13,Mickey sneaking walk,Walk
+120_14,Mickey sneaking walk,Walk
+120_08,Mickey sneaky walk,Walk
+120_17,Mickey Walk,Walk
+120_18,Mickey Walk,Walk
+90_32,moonwalk,Other
+91_05,Mummy Walk,Other
+105_05,mummyWalk,Other
+17_08,"muscular, heavyset person's walk",Walk
+17_09,"muscular, heavyset person's walk",Walk
+18_07,"navigate busy sidewalk; A leads the way, takes B by the arm (2 subjects - subject A)",Walk
+86_14,"bouncing basketball, shooting basketball, dribble basketball, two handed dribble",Other
+19_07,"navigate busy sidewalk; A leads the way, takes B by the arm (2 subjects - subject B)",Walk
+87_01,Jump with kick and spin,Other
+87_02,T-Pose,Other
+87_03,Backflip,Other
+87_04,backflip,Other
+87_05,cartwheels,Other
+88_01,backflip,Other
+88_02,"backflips, jump onto platform, handstands, vertical pushups",Other
+88_03,motorcycle pose,Other
+88_04,"stretches, cartwheels, flips, spin kicks, spins, and fall",Other
+88_05,cartwheel into backflip,Other
+88_06,jump and spin kick,Other
+88_07,cartwheel,Other
+88_08,crouch and flip backward on hands,Other
+88_09,stretch and cartwheel,Other
+88_10,stretch and spin,Other
+88_11,stretches and jumps,Other
+89_01,balance object on forehead,Other
+89_02,motorcycle pose,Other
+89_03,flip and stand on one hand,Other
+89_04,"spins, flips, stand on one hand",Other
+89_05,"spin upside down, handstand, flips",Other
+89_06,balance beam,Other
+90_01,bkwd summersult,Other
+90_02,cartwheel,Other
+90_03,cartwheel,Other
+90_04,cartwheel,Other
+90_05,jump kick,Other
+90_06,jump kick,Other
+90_07,jump kick,Other
+90_08,side flip,Other
+90_09,Flip forward onto hands and back again,Other
+90_10,90_10.amc,Other
+90_11,hand spring,Other
+90_12,bck flp twst fall,Other
+90_13,bck flp twst fall,Other
+90_14,front hand flip,Other
+90_15,front hand flip,Other
+90_16,fall on face,Other
+90_17,BannanaPeelSlip,Other
+90_18,RugPullFall,Other
+90_19,monkey backflip,Other
+90_20,monkey sequence,Other
+90_21,monkey sequence,Other
+104_02,"neutral Male walk, exact footfalls",Walk
+136_20,Normal Walk,Walk
+90_24,ball mount,Other
+136_21,Normal Walk,Walk
+136_22,Normal Walk,Walk
+136_23,Normal Walk,Walk
+90_28,breakdance,Other
+90_29,sequesnce,Other
+90_30,russian dance,Other
+90_31,russian dance,Other
+136_24,Normal Walk,Walk
+90_33,arm up wide leg roll,Other
+90_34,wide leg roll,Other
+90_35,wide leg roll,Other
+90_36,wide leg roll,Other
+137_29,Normal Walk,Walk
+136_25,Normal Walk Backwards,Walk
+136_26,Normal Walk Backwards,Walk
+91_29,NormalWalk,Walk
+91_31,NormalWalk,Walk
+91_06,Motorcycle Pose,Other
+91_07,mummy8,Other
+91_08,mummyDigital8,Other
+91_09,DrunkWalk,Walk
+91_34,NormalWalk,Walk
+105_29,NormalWalk,Walk
+105_31,NormalWalk,Walk
+105_34,NormalWalk,Walk
+137_33,Old Man Walk,Walk
+132_39,Pigeon Toed Walking,Other
+91_16,Limp,Other
+91_17,QuickWalk,Walk
+105_17,QuickWalk,Walk
+91_19,March,Other
+141_29,Random Walk,Walk
+141_30,Random Walk,Walk
+104_22,RegularWalk8,Walk
+104_27,RegularWalkRightAngleTurns,Walk
+91_13,SadWalk,Walk
+105_13,SadWalk,Walk
+91_32,ScaredWalk,Walk
+105_32,ScaredWalk,Walk
+137_38,Sexy Lady Walk,Walk
+91_30,SexyWalk,Walk
+105_30,SexyWalk,Walk
+91_20,ShyWalk,Walk
+105_20,ShyWalk,Walk
+91_10,SlowWalk,Walk
+91_27,SlowWalk,Walk
+104_35,SlowWalk,Walk
+105_10,SlowWalk,Walk
+91_37,Forward,Other
+91_38,SmallForward,Other
+91_39,JumpForward,Other
+91_40,JumpForward,Other
+91_41,JumpForward,Other
+91_42,JumpForward,Other
+91_43,JumpSmallForward,Other
+91_44,JumpSmallForward,Other
+91_45,JumpForward,Other
+91_46,Jump Turn,Other
+91_47,Jump Turn,Other
+91_48,JumpTurn,Other
+91_49,Jump Turn,Other
+91_50,JumpTurn,Other
+91_51,FurtherJumpTurn,Other
+91_52,SmallJumpTurn,Other
+91_53,180 degree jump,Other
+91_54,180,Other
+91_55,180,Other
+91_56,90,Other
+105_27,SlowWalk,Walk
+91_58,270,Other
+91_59,360 smallStumble,Other
+91_60,360,Other
+91_61,360,Other
+104_36,SlowWalk8,Walk
+93_01,Motorcycle Pose,Other
+93_02,rangeOfMotion,Other
+93_03,charleston_01,Other
+93_04,charleston_side_by_side_female,Other
+93_05,charleston_side_by_side_male,Other
+93_06,lindyHop2,Other
+104_39,SlowWalkRightAngleTurns,Walk
+93_08,xtra fancY charleston,Other
+94_01,Unknown,Other
+94_02,Unknown,Other
+94_03,Unknown,Other
+94_04,Unknown,Other
+94_05,Unknown,Other
+94_06,Unknown,Other
+94_07,Unknown,Other
+94_08,Unknown,Other
+94_09,Unknown,Other
+94_10,Unknown,Other
+94_11,Unknown,Other
+94_12,Unknown,Other
+94_13,Unknown,Other
+94_14,Unknown,Other
+94_15,Unknown,Other
+94_16,Unknown,Other
+102_01,RightWideTurn,Other
+102_02,LeftWideTurn,Other
+102_03,SuperTightLeft,Other
+102_04,SuperTightRight,Other
+102_05,RunningStraight,Run
+102_06,RunningWideRight,Run
+102_07,RunningWideLeft,Run
+102_08,RunningTighterRight,Run
+102_09,calibration,Other
+102_10,RunningNoBall,Run
+102_11,OffensiveMoveSpinLeft,Other
+102_12,OffensiveMoveSpinLeft,Other
+102_13,OffensiveMoveGoRight,Other
+102_14,OffensiveMoveGoLeft,Other
+102_15,OffensiveMoveSpinRight,Other
+104_16,SpasticWalk,Walk
+82_08,stand still; casual walk forward,Other
+102_18,FeintLeftMoveRight,Other
+102_19,FeintRightMoveLeft,Other
+102_20,FakeShotBreakRight,Other
+102_21,FakeShotBreakLeft,Other
+102_22,DefensiveStraightNoStop,Other
+102_23,DefensiveStraightWithStop,Other
+102_24,DefensiveRightStopToStop,Other
+102_25,DefensiveLeftStopToStop,Other
+102_26,DefensiveMoveZigZag,Other
+102_27,DefensiveMoveSideToSide,Other
+102_28,DefensiveMoveSideToSide,Other
+102_29,Pivoting,Other
+102_30,SraightDriveFromStop,Other
+102_31,RightDrive (left then right),Other
+102_32,LeftDrive (right then left),Other
+102_33,RightTightTurn,Other
+103_01,Unknown,Other
+103_02,rangeOfMotion_01,Other
+103_03,charleston_01,Other
+103_04,charleston_side_by_side_female,Other
+103_05,charleston_side_by_side_male,Other
+103_06,lindyHop2,Other
+131_09,Start Walk Left,Walk
+103_08,xtra fancY charleston,Other
+104_01,JogThrough,Other
+131_10,Start Walk Left,Walk
+131_11,Start Walk Left,Walk
+104_04,JogThrough,Other
+104_05,Unknown,Other
+104_06,StartJog,Other
+104_07,Unknown,Other
+104_08,StartJog,Other
+104_09,JogStop,Other
+104_10,JogStop,Other
+131_12,Start Walk Right,Walk
+131_13,Start Walk Right,Walk
+131_14,Start Walk Right,Walk
+131_01,Start Walk Stop,Walk
+104_15,Unknown,Other
+131_02,Start Walk Stop,Walk
+104_17,SpasticStop,Other
+104_18,SpasticStop,Other
+141_08,Steop On Walk Down,Walk
+104_20,Unknown,Other
+104_21,Unknown,Other
+104_28,SternWalk,Walk
+104_23,Unknown,Other
+104_24,Unknown,Other
+104_25,Unknown,Other
+104_26,Unknown,Other
+104_29,SternWalk,Walk
+104_30,SternWalk8,Walk
+104_32,SternWalkRightAngleTurns,Other
+90_22,straight walk,Walk
+104_31,Unknown,Other
+90_23,straight walk,Walk
+104_33,Unknown,Other
+104_34,Unknown,Other
+133_08,Stretch Walk,Walk
+133_09,Stretch Walk,Walk
+104_37,RunThrough,Run
+104_38,Unknown,Other
+133_10,Stretch Walk,Walk
+104_40,Unknown,Other
+137_42,Strong Man Walk,Walk
+104_13,StumbleWalk,Walk
+20_04,synchronized walk (2 subjects - subject A),Walk
+20_05,synchronized walk (2 subjects - subject A),Walk
+21_04,synchronized walk (2 subjects - subject B),Walk
+21_05,synchronized walk (2 subjects - subject B),Walk
+104_47,Unknown,Other
+104_48,RunThrough,Run
+104_49,Unknown,Other
+104_50,Unknown,Other
+104_51,Unknown,Other
+104_52,Unknown,Other
+104_53,StartRun,Run
+104_54,StartRun,Run
+104_55,StartRun,Run
+104_56,RunStop,Run
+104_57,RunStop,Run
+91_12,TooCoolWalk,Walk
+105_12,TooCoolWalk,Walk
+91_35,TrafficWalk,Walk
+105_04,Digital8,Other
+105_35,TrafficWalk,Walk
+105_06,MotorCyclePose,Other
+105_07,mummy8,Other
+105_08,mummyDigital8,Other
+105_09,DrunkWalk,Walk
+111_36,Walk and carry,Walk
+113_26,Walk and carry,Walk
+143_11,Walk And Pick up Box,Other
+143_13,Walk and Pick up Laundry Basket,Other
+143_10,Walk And Pick up Tool Box,Other
+143_12,Walk And Pick up Toolbox,Other
+105_16,Limp,Other
+143_14,Walk And Step Over,Walk
+143_15,Walk And Step Over,Walk
+105_19,March,Other
+143_16,Walk And Step Over,Walk
+86_10,"walk around, sit, stand up, and running",Other
+136_07,Walk Backward on Toes Bent Forward,Other
+136_08,Walk Backward on Toes Bent Forward,Other
+111_01,Walk backwards,Walk
+113_01,Walk backwards,Walk
+132_13,Walk Backwards,Walk
+141_31,Walk Backwards,Walk
+143_39,Walk Backwards,Walk
+136_03,Walk Backwards Bent Forward,Walk
+136_04,Walk Backwards Bent Forward,Walk
+136_11,Walk Backwards Crouched,Walk
+136_12,Walk Backwards Crouched,Walk
+136_29,Walk Backwards on Toes,Walk
+136_30,Walk Backwards on Toes,Walk
+136_15,Walk Backwards on Toes Crouched,Walk
+136_16,Walk Backwards on Toes Crouched,Walk
+105_37,Forward,Other
+105_38,SmallForward,Other
+105_39,JumpForward,Other
+105_40,JumpForward,Other
+105_41,JumpForward,Other
+105_42,JumpForward,Other
+105_43,JumpSmallForward,Other
+105_44,JumpSmallForward,Other
+105_45,JumpForward,Other
+105_46,Jump Turn,Other
+105_47,Jump Turn,Other
+105_48,JumpTurn,Other
+105_49,Jump Turn,Other
+105_50,JumpTurn,Other
+105_51,FurtherJumpTurn,Other
+105_52,SmallJumpTurn,Other
+105_53,180,Other
+105_54,180,Other
+105_55,180,Other
+105_56,90,Other
+76_01,walk backwards then attack with a punch,Other
+105_58,270,Other
+105_59,360 smallStumble,Other
+105_60,360,Other
+105_61,360,Other
+76_02,"walk backwards, feign a few attacks, then attack",Other
+106_01,clean,Other
+106_02,clean,Other
+106_03,clean,Other
+106_04,clean,Other
+106_05,clean,Other
+106_06,clean,Other
+106_07,clean,Other
+106_08,clean,Other
+106_09,clean,Other
+106_10,clean,Other
+106_11,clean,Other
+106_12,clean,Other
+106_13,clean,Other
+106_14,clean,Other
+106_15,106_15.amc,Other
+106_16,clean,Other
+106_17,clean,Other
+106_18,clean,Other
+106_19,clean,Other
+106_20,clean,Other
+106_21,bad AMC,Other
+106_22,clean,Other
+106_23,clean,Other
+106_24,clean,Other
+106_25,clean,Other
+106_26,clean,Other
+106_27,clean,Other
+106_28,clean,Other
+106_29,clean,Other
+106_30,clean,Other
+106_31,clean,Other
+106_32,clean,Other
+106_33,clean,Other
+106_34,clean,Other
+107_01,Unknown,Other
+107_02,Unknown,Other
+107_03,Unknown,Other
+107_04,Unknown,Other
+107_05,Unknown,Other
+107_06,Unknown,Other
+107_07,Unknown,Other
+107_08,Unknown,Other
+107_09,Unknown,Other
+107_10,Unknown,Other
+107_11,Unknown,Other
+107_12,Unknown,Other
+107_13,Unknown,Other
+107_14,Unknown,Other
+108_01,Unknown,Other
+108_02,Unknown,Other
+108_03,Unknown,Other
+108_04,Unknown,Other
+108_05,Unknown,Other
+108_06,Unknown,Other
+108_07,Unknown,Other
+108_08,Unknown,Other
+108_09,Unknown,Other
+108_10,Unknown,Other
+108_11,Unknown,Other
+108_12,Unknown,Other
+108_13,Unknown,Other
+108_14,Unknown,Other
+108_15,Unknown,Other
+108_16,Unknown,Other
+108_17,Unknown,Other
+108_18,Unknown,Other
+108_19,Unknown,Other
+108_20,Unknown,Other
+108_21,Unknown,Other
+108_22,Unknown,Other
+108_23,Unknown,Other
+108_24,Unknown,Other
+108_25,Unknown,Other
+108_26,Unknown,Other
+108_27,Unknown,Other
+108_28,Unknown,Other
+136_01,Walk Bent Forward,Walk
+111_02,Bow,Other
+111_03,Crawling,Other
+111_04,Curtsey,Other
+111_05,Dance,Other
+111_06,Get up from floor,Other
+111_07,Get up from floor,Other
+111_08,Get up from floor,Other
+111_09,Get up from chair,Other
+111_10,get up from chair,Other
+111_11,get up from chair,Other
+111_12,Lay down,Other
+111_13,March,Other
+111_14,Mope,Other
+111_15,Motorcycle,Other
+111_16,Peekaboo,Other
+111_17,Pick up,Other
+111_18,Pick up,Other
+111_19,Punch Kick,Other
+111_20,Ring around the rosie,Other
+111_21,Roll over,Other
+111_22,Range of motion,Other
+111_23,Run,Run
+111_24,Run,Run
+111_25,Shrug,Other
+136_02,Walk Bent Forward,Walk
+133_01,Walk Crawl,Other
+111_28,Standing still,Other
+111_29,Stepping over,Other
+111_30,Stepping over,Other
+111_31,Stepping up / stepping down,Other
+111_32,Stretch and yawn,Other
+111_33,Throwing,Other
+111_34,Walk,Walk
+111_35,Walk,Walk
+133_02,Walk Crawl,Other
+111_37,Wave,Other
+111_38,Yoga,Other
+111_39,Yoga,Other
+111_40,Yoga,Other
+111_41,Yoga,Other
+132_16,Walk Crossover,Walk
+113_02,Bow,Other
+113_03,Curtsey,Other
+113_04,Dance,Other
+136_09,Walk Crouched,Walk
+136_10,Walk Crouched,Walk
+113_07,Run,Run
+113_08,Lay down and get up,Other
+113_09,March,Other
+113_05,Walk digital 8,Walk
+113_11,Motorcycle,Other
+113_12,Peekaboo,Other
+113_13,Punch and kick,Other
+113_14,Ring around the rosie,Other
+113_15,Sit in chair and get up,Other
+113_16,Shrug,Other
+143_38,Walk Digital 8,Walk
+91_01,Walk digital figure eight,Walk
+132_14,Walk Duck Footed,Walk
+132_17,Walk Fast,Walk
+113_21,Standing Still,Other
+113_22,Step over,Other
+113_23,Stretch and yawn,Other
+113_24,Throw,Other
+113_25,Walk,Walk
+132_18,Walk Fast,Walk
+113_27,Wave,Other
+113_28,Yoga,Other
+113_29,Yoga,Other
+114_01,Motorcycle,Other
+114_02,Getting up from laying down,Other
+114_03,Range of motion,Other
+114_04,Getting up from chair,Other
+114_05,Sitting in chair,Other
+114_06,Getting up from chair,Other
+132_19,Walk Fast,Walk
+132_20,Walk Fast,Walk
+132_21,Walk Fast,Walk
+114_10,Stretching,Other
+114_11,Laying down and getting up,Other
+114_12,Stretching,Other
+114_13,Walk,Walk
+114_14,Walk,Walk
+114_15,Walk,Walk
+114_16,Sit down and stretch,Other
+115_01,"Pick up box, bend from waist",Other
+115_02,"Pick box up, bend from waist",Other
+115_03,"Pick box up, bend from waist",Other
+115_04,"Pick box up, bend from waist",Other
+115_05,"Pick box up, bend from waist",Other
+115_06,"Picking box up, bending knees",Other
+115_07,"Picking box up, bending knees",Other
+115_08,"Picking box up, bending knees",Other
+115_09,"Picking box up, bending knees",Other
+115_10,"Pick box up, bend from waist",Other
+118_01,Jump,Other
+118_02,Jump,Other
+118_03,Jump,Other
+118_04,Jump,Other
+118_05,Jump,Other
+118_06,Jump,Other
+118_07,Jump,Other
+118_08,Jump,Other
+118_09,Jump,Other
+118_10,Jump,Other
+118_11,Jump,Other
+118_12,Jump,Other
+118_13,Jump,Other
+118_14,Jump,Other
+118_15,Jump,Other
+118_16,Jump,Other
+118_17,Jump,Other
+118_18,Jump,Other
+118_19,Jump,Other
+118_20,Jump,Other
+118_21,Jump,Other
+118_22,Jump,Other
+118_23,Jump,Other
+118_24,Jump,Other
+118_25,Jump,Other
+118_26,Jump,Other
+118_27,Jump,Other
+118_28,Jump,Other
+118_29,Jump,Other
+118_30,Jump,Other
+118_31,Motorcycle,Other
+118_32,Range of motion,Other
+120_01,Alien Turn,Other
+120_02,Gorilla,Other
+120_03,Mickey cast spell,Other
+120_04,Mickey Conducting,Other
+120_05,Mickey Dance,Other
+120_06,Mickey Dance,Other
+120_07,Mickey Dance,Other
+132_22,Walk Fast,Walk
+113_06,Walk figure 8,Walk
+91_03,Walk figure eight,Walk
+69_69,"walk forward and pick up object, carry back object",Other
+69_68,"walk forward and pick up object, set down object",Other
+83_35,walk forward and stepping up stairs,Walk
+83_34,walk forward and up stairs,Walk
+120_15,Mickey Surprised,Other
+120_16,Mickey Surprised,Other
+83_27,walk forward stepping up stairs,Walk
+83_28,walk forward stepping up stairs,Walk
+83_29,walk forward stepping up stairs,Walk
+120_20,Walk,Walk
+120_21,Robot,Other
+120_22,Zombie,Other
+122_01,clean,Other
+122_02,clean,Other
+122_03,clean,Other
+122_04,clean,Other
+122_05,clean,Other
+122_06,clean,Other
+122_07,clean,Other
+122_08,clean,Other
+122_09,clean,Other
+122_10,clean,Other
+122_11,Unknown,Other
+122_12,clean,Other
+122_13,clean,Other
+122_14,clean,Other
+122_15,clean,Other
+122_16,clean,Other
+122_17,clean,Other
+122_18,clean,Other
+122_19,clean,Other
+122_20,clean,Other
+122_21,clean,Other
+122_22,clean,Other
+122_23,clean,Other
+122_24,clean,Other
+122_25,clean,Other
+122_26,clean,Other
+122_27,clean,Other
+122_28,clean,Other
+122_29,clean,Other
+122_30,clean,Other
+122_31,clean,Other
+122_32,clean,Other
+122_33,clean,Other
+122_34,clean,Other
+122_35,clean,Other
+122_36,clean,Other
+122_37,clean,Other
+122_38,clean,Other
+122_39,clean,Other
+122_40,clean,Other
+122_41,clean,Other
+122_42,clean,Other
+122_43,clean,Other
+122_44,clean,Other
+122_45,clean,Other
+122_46,clean,Other
+122_47,clean,Other
+122_48,clean,Other
+122_49,clean,Other
+122_50,clean,Other
+122_51,clean,Other
+122_52,clean,Other
+122_53,clean,Other
+122_54,clean,Other
+122_55,clean,Other
+122_56,clean,Other
+122_57,clean,Other
+122_58,cleaned,Other
+122_59,clean,Other
+122_60,clean,Other
+122_61,clean,Other
+122_62,clean,Other
+122_63,clean,Other
+122_64,clean,Other
+122_65,clean,Other
+122_66,clean,Other
+122_67,clean,Other
+122_68,clean,Other
+123_01,15.5 lbs,Other
+123_02,15.5 lbs,Other
+123_03,19.5lb,Other
+123_04,19.5 lbs,Other
+123_05,19.5 lbs,Other
+123_06,19.5 lbs,Other
+123_07,12.5lb,Other
+123_08,12.5 lbs,Other
+123_09,12.5 lbs,Other
+123_10,12.5lb,Other
+123_11,15.5 lbs,Other
+123_12,15.5 lbs,Other
+123_13,15.5 lbs,Other
+124_01,Baseball Pitch,Other
+124_02,Baseball Pitch,Other
+124_03,Basketball Shoot,Other
+124_04,Basketball Free Throw,Other
+124_05,Basketball Jump Shot,Other
+124_06,Basketball Lay Up,Other
+124_07,Baseball Swing,Other
+124_08,Baseball Bunt,Other
+124_09,Frisbee,Other
+124_10,Motorcycle,Other
+124_11,2 Foot Jump,Other
+124_12,Underhand Toss,Other
+124_13,Underhand Fast Pitch,Other
+125_01,Breast Stroke,Other
+125_02,Breast Stroke,Other
+125_03,Break Stroke,Other
+125_04,Breast Stroke,Other
+125_05,Butterfly,Other
+125_06,Free Style,Other
+125_07,Motorcycle,Other
+126_01,Back Stroke,Other
+126_02,Back Stroke,Other
+126_03,Breast Stroke,Other
+126_04,Breast Stroke,Other
+126_05,Breast Stroke,Other
+126_06,Fly Stroke,Other
+126_07,Fly Stroke,Other
+126_08,Fly Stroke,Other
+126_09,Fly Stroke,Other
+126_10,Free Style,Other
+126_11,Free Style,Other
+126_12,Free Style,Other
+126_13,Motorcycle,Other
+126_14,Range of Motion,Other
+127_01,Motorcycle,Other
+127_02,Range of Motion,Other
+127_03,Run,Run
+127_04,Walk to Run,Run
+127_05,Run to Quick Stop,Run
+127_06,Run,Run
+127_07,Run,Run
+127_08,Run,Run
+127_09,Run Right,Run
+127_10,Run Right,Run
+127_11,Run Left,Run
+127_12,Run Left,Run
+127_13,Run Side Step Left,Run
+127_14,Run Side Step Right,Run
+127_15,Run Turn Left,Run
+127_16,Run Turn Right,Run
+127_17,Run Stop Run,Run
+127_18,Run Stop Run,Run
+127_19,Run Quick Stop Run,Run
+127_20,Run Quick Stop Run,Other
+127_21,Run Jump Stop Run,Other
+127_22,Run Jump Stop Run,Other
+127_23,Run Dive Over Roll Run,Other
+127_24,Run Dive Over Roll Run,Other
+127_25,Run Jump Over,Other
+127_26,Run Jump Over,Other
+127_27,Run Jump Over,Other
+127_28,Run Jump Over,Other
+127_29,Run Duck Underneath,Other
+127_30,Run Duck Underneath,Other
+127_31,Run Duck Underneath,Other
+127_32,Run Duck Underneath,Other
+127_33,Run Over,Run
+127_34,Run Over,Run
+127_35,Run Over,Run
+127_36,Run Over,Run
+127_37,Run Duck Underneath,Other
+127_38,Run Duck Underneath,Other
+128_01,Motorcycle,Other
+128_02,Run Left,Run
+128_03,Run Right,Run
+128_04,Run Duck Underneath,Other
+128_05,Run Stop Run,Run
+128_06,Run Stop Run,Run
+128_07,Run Stop Run,Run
+128_08,Run Stop Run,Run
+128_09,Run Roll Underneath,Other
+128_10,Run Dive Over Roll Run,Other
+128_11,Run Dive Over Roll Run,Other
+83_30,walk forward stepping up stairs,Walk
+83_31,walk forward stepping up stairs,Walk
+131_03,Start Hop Stop,Other
+131_04,Start Hop Stop,Other
+131_05,Start Duck Underneath Stop,Other
+131_06,Start Duck Underneath Stop,Other
+131_07,Jump Stop,Other
+131_08,Jump Stop,Other
+83_32,walk forward stepping up stairs,Walk
+83_36,walk forward turn 90 degrees left walk forward,Walk
+83_38,walk forward turn 90 degrees left walk forward,Walk
+83_37,walk forward turn 90 degrees right walk forward,Walk
+83_39,walk forward turn 90 degrees right walk forward,Walk
+133_03,Walk Jump,Other
+133_04,Walk Jump,Other
+133_05,Walk Jump,Other
+133_06,Walk Jump,Other
+133_07,Walk Jump,Other
+132_35,Walk Leaning To The Right,Walk
+132_36,Walk Leaning To The Right,Walk
+133_14,Walk Left,Walk
+133_15,Walk Left,Walk
+133_16,Walk Left,Walk
+136_27,Walk on Toes,Other
+136_28,Walk on Toes,Other
+136_05,Walk on Toes Bent Forward,Other
+136_06,Walk on Toes Bent Forward,Other
+136_13,Walk on Toes Crouched,Other
+136_14,Walk on Toes Crouched,Other
+133_17,Walk Right,Walk
+133_18,Walk Right,Walk
+133_19,Walk Right,Walk
+133_20,Walk Right,Walk
+113_17,Walk sideway,Other
+111_26,Walk sideways,Other
+113_18,Walk sideways,Other
+132_23,Hop on left foot,Other
+132_24,Hop on left foot,Other
+132_25,Hop on left foot,Other
+132_26,Hop on left foot,Other
+132_27,Hop on left foot,Other
+132_28,Hop on left foot,Other
+143_40,Walk Sideways,Other
+141_32,"Walk Sideways, Cross Legs",Other
+141_33,"Walk Sideways, Foot to Foot",Other
+120_19,Walk slow,Walk
+132_45,Walk Slow,Walk
+132_46,Walk Slow,Walk
+132_47,Walk Slow,Walk
+132_48,Walk Slow,Walk
+132_37,Marching,Other
+132_38,Motorcycle,Other
+132_49,Walk Slow,Walk
+132_50,Walk Slow,Walk
+133_11,Walk Stop Walk,Other
+133_12,Walk Stop Walk,Other
+133_13,Walk Stop Walk,Other
+132_42,Walk Swinging Shoulders,Walk
+132_43,Walk Swinging Shoulders,Walk
+132_44,Walk Swinging Shoulders,Walk
+113_20,Walk up and down stairs,Walk
+141_07,Walk Up and Over,Walk
+143_17,Walk Up Stairs And Over,Walk
+69_73,"walk up to object, lean over, pick up object, set down in another place",Other
+132_51,Tpose,Other
+132_52,Range of Motion,Other
+69_74,"walk up to object, lean over, pick up object, set down in another place",Other
+69_72,"walk up to object, pick up object, set down in another place",Other
+69_71,"walk up to object, squat, pick up object, set down in another place",Other
+69_75,"walk up to object, squat, pick up object, set down in another place",Other
+69_70,"walk up to object, squat, pick up object, set down in another place.",Other
+132_01,"Walk With Arms Out,  balancing",Other
+132_02,"Walk With Arms Out,  balancing",Other
+132_03,"Walk With Arms Out,  balancing",Other
+132_04,"Walk With Arms Out,  balancing",Other
+132_05,"Walk With Arms Out,  balancing",Other
+132_06,"Walk With Arms Out,  balancing",Other
+132_07,"Walk With Arms Out,  balancing",Other
+132_08,"Walk With Arms Out,  balancing",Other
+132_09,"Walk With Arms Out,  balancing",Other
+132_10,"Walk With Arms Out,  balancing",Other
+132_11,"Walk With Arms Out,  balancing",Other
+132_12,"Walk With Arms Out,  balancing",Other
+132_15,Walk With Knees Bent,Walk
+132_53,Walk With Legs Apart,Walk
+132_40,Walk With Stiff Arms,Walk
+132_41,Walk With Stiff Arms,Walk
+132_54,Walk With Wild Arms,Walk
+132_55,Walk With Wild Legs,Walk
+132_56,Walk With Wild Legs,Walk
+133_21,Walk,Walk
+133_22,Walk,Walk
+133_23,Walk,Walk
+139_19,Walk Wounded Leg,Walk
+133_25,Motorcycle,Other
+133_26,Range of Motion,Other
+134_01,Duck Under,Other
+134_02,Go Forward,Other
+134_03,Lean Turn Right,Other
+134_04,Motorcycle,Other
+134_05,Pump Jump,Other
+134_06,Push Turn Left,Other
+134_07,Push Turn Left,Other
+134_08,Push Turn Right,Other
+134_09,Push Turn Right,Other
+134_10,Start,Other
+134_11,Start,Other
+134_12,Stop and Go,Other
+134_13,Stop and Go,Other
+134_14,Stop ang Go,Other
+134_15,Lean Turn Left,Other
+135_01,Bassai,Other
+135_02,Empi,Other
+135_03,Empi,Other
+135_04,Front Kick,Other
+135_05,Gedanbarai,Other
+135_06,Heiansyodan,Other
+135_07,Mawashigeri,Other
+135_08,Motorcycle,Other
+135_09,Oiduki,Other
+135_10,Syutouuke,Other
+135_11,Yokogeri,Other
+139_20,Walk Wounded Leg,Walk
+139_22,Walk Wounded Leg,Walk
+139_23,Walk Wounded Leg,Walk
+139_24,Walk Wounded Leg,Walk
+133_24,Walk ZigZag,Walk
+113_10,"Walk, mope around",Other
+18_01,"walk, shake hands (2 subjects - subject A)",Other
+18_02,"walk, shake hands (2 subjects - subject A)",Other
+19_01,"walk, shake hands (2 subjects - subject B)",Other
+19_02,"walk, shake hands (2 subjects - subject B)",Other
+86_02,"walk, squats, run, stretch, jumps, punches, and drinking",Other
+22_23,walk; A catches keys thrown by B (2 subjects - subject A),Other
+23_23,walk; A catches keys thrown by B (2 subjects - subject B),Other
+22_25,walk; A catches wallet thrown by B (2 subjects - subject A),Other
+23_25,walk; A catches wallet thrown by B (2 subjects - subject B),Other
+22_22,walk; B catches keys thrown by A (2 subjects - subject A),Other
+136_17,"Flamingo, lift legs high",Other
+136_18,"Flamingo, lift legs high",Other
+136_19,Motorcycle,Other
+23_22,walk; B catches keys thrown by A (2 subjects - subject B),Other
+22_24,walk; B catches wallet thrown by A (2 subjects - subject A),Other
+23_24,walk; B catches wallet thrown by A (2 subjects - subject B),Other
+105_03,Walk8,Walk
+105_01,WalkDigital8,Walk
+102_16,WalkEvasiveLeft,Walk
+78_18,WalkEvasiveLeft      CleanedGRS,Walk
+102_17,WalkEvasiveRight,Walk
+78_19,WalkEvasiveRight              CleanedGRS,Walk
+91_62,walkFigure8,Walk
+105_62,walkFigure8,Walk
+136_31,"Quail, quick little steps",Other
+136_32,"Quail, quick little steps",Other
+136_33,Range of Motion,Other
+137_01,Cat Coffee Mug,Other
+137_02,Cat Pick Up,Other
+137_03,Cat Wait,Other
+91_57,WalkForward,Walk
+137_05,Chicken Coffee Mug,Other
+137_06,Chicken Pick Up,Other
+137_07,Chicken Wait,Other
+105_57,WalkForward,Walk
+137_09,Dinosaur Coffee Mug,Other
+137_10,Dinosaur Pick Up,Other
+137_11,Dinosaur Wait,Other
+91_04,Walking,Walk
+137_13,Drunk Coffee Mug,Other
+137_14,Drunk Pick Up,Other
+137_15,Drunk Wait,Other
+137_16,Drunk Walk,Walk
+137_17,Gangly Teen Coffee Mug,Other
+137_18,Gangly Teen Pick Up,Other
+137_19,Gangly Teen Wait,Other
+139_28,Walking,Walk
+137_21,Graceful Lady Coffee Mug,Other
+137_22,Graceful Lady Pick Up,Other
+137_23,Graceful Lady Wait,Other
+139_30,Walking,Walk
+137_25,Motorcycle,Other
+137_26,Normal Coffee Mug,Other
+137_27,Normal Pick Up,Other
+137_28,Normal Wait,Other
+144_33,Walking,Walk
+137_30,Old Man Coffee Mug,Other
+137_31,Old Man Pick Up,Other
+137_32,Old Man Wait,Other
+86_13,"walking around, walk up ladder, step down ladder",Other
+137_34,Range of Motion,Other
+137_35,Sexy Lady Coffee Mug,Other
+137_36,Sexy Lady Pick Up,Other
+137_37,Sexy Lady Wait,Other
+76_09,walking backwards,Walk
+137_39,Strong Man Coffee Mug,Other
+137_40,Strong Man Pick Up,Other
+137_41,Strong Man Wait,Other
+113_19,Walking up and down stairs,Walk
+138_01,Marching,Other
+138_02,Marching,Other
+138_03,Marching,Other
+138_04,Marching,Other
+138_05,Marching,Other
+138_06,Marching,Other
+138_07,Marching,Other
+138_08,Marching,Other
+138_09,Marching,Other
+138_10,Marching,Other
+138_11,Story,Other
+138_12,Story,Other
+138_13,Story,Other
+138_14,Story,Other
+138_15,Story,Other
+138_16,Story,Other
+138_17,Story,Other
+138_18,Story,Other
+138_19,Story,Other
+138_20,Story,Other
+138_21,Story,Other
+138_22,Story,Other
+138_23,Story,Other
+138_24,Story,Other
+138_25,Story,Other
+138_26,Story,Other
+138_27,Story,Other
+138_28,Story,Other
+138_29,Story,Other
+138_30,Story,Other
+138_31,Story,Other
+138_32,Story,Other
+138_33,Story,Other
+138_34,Story,Other
+138_35,Story,Other
+138_36,Story,Other
+138_37,Story,Other
+138_38,Story,Other
+138_39,Story,Other
+138_40,Story,Other
+138_41,Story,Other
+138_42,Story,Other
+138_43,Story,Other
+138_44,Story,Other
+138_45,Story,Other
+138_46,Story,Other
+138_47,Story,Other
+138_48,Story,Other
+138_49,Story,Other
+138_50,Story,Other
+138_51,Story,Other
+138_52,Story,Other
+138_53,Story,Other
+138_54,Story,Other
+138_55,Story,Other
+139_01,Looking Around,Other
+139_02,Shifting Weight,Other
+139_03,Looking Around,Other
+139_04,Looking Around,Other
+139_05,Pulling a Gun,Other
+139_06,Poking Around On The Ground,Other
+139_07,Poking Around On The Ground,Other
+139_08,Poking Around On The Ground,Other
+139_09,Ducking,Other
+139_10,Run,Run
+139_11,Run To Sneak,Other
+139_12,Run in Circles,Run
+139_13,Run in Circles,Run
+139_14,Sneak Sideways,Other
+139_15,Sneak Sideways,Other
+139_16,Get Up From Ground,Other
+139_17,Get Up From Ground,Other
+139_18,Get Up From Ground Laying on Back,Other
+114_07,Walking up and down stairs,Walk
+114_08,Walking up and down stairs,Walk
+139_21,Range Of Motion,Other
+114_09,Walking up and down stairs,Walk
+111_27,Walking up stairs,Walk
+86_12,"walking, dragging, sweeping, dustpan, wipe window, and wipe mirror",Other
+139_25,Giving Directions,Other
+139_26,Looking Around,Other
+139_27,Looking Around,Other
+86_05,"walking, jumping, jumping jacks,  jumping on one foot, punching, chopping,",Other
+139_29,Sneaking,Other
+86_03,"walking, running, jumping, kicking, and stretching",Other
+139_31,Sneaking,Other
+139_32,Sneaking,Other
+139_33,Sneaking,Other
+139_34,Sneaking,Other
+140_01,Get Up Face Down,Other
+140_02,Get Up Face Down,Other
+140_03,Get Up Laying on Side,Other
+140_04,Get Up Laying on Side,Other
+140_05,Motorcycle,Other
+140_06,Idle,Other
+140_07,Idle,Other
+140_08,Get Up From Ground Laying on Back,Other
+140_09,Get Up From Ground Laying on Back,Other
+141_01,Run,Run
+141_02,Run,Run
+141_03,Run,Run
+141_04,Jump Distances,Other
+141_05,Jump Sideways,Other
+141_06,Jump Twist,Other
+86_06,"walking, running, kicking, punching, knee kicking, and stretching",Other
+86_15,"walking, sitting, hand motions",Other
+141_09,Step Over,Other
+141_10,Toss and Catch,Other
+141_11,Throw and Catch,Other
+141_12,"Dance, Twist",Other
+141_13,Stretch and Yawn,Other
+141_14,Punch and Kick,Other
+141_15,Range of Motion,Other
+141_16,Wave Hello,Other
+141_17,Sit on Stool,Other
+141_18,Peek a Boo,Other
+141_19,Walk,Walk
+141_20,Waiting,Other
+141_21,Shrug,Other
+141_22,High Five,Other
+141_23,Shake Hands,Other
+141_24,Around the world High Five Low,Other
+141_25,Walk,Walk
+141_26,Curtsey,Other
+141_27,Mope,Other
+141_28,"Slap Hands, Throw it Back",Other
+86_09,"walking, sitting, looking, stand up",Other
+86_08,"walking, squats, stretching, kicking, and punching",Other
+86_04,"walking, stretching, punching, chopping, and drinking",Other
+86_11,"walking, stretching, walking and turning",Other
+86_07,"walking, swinging arms, stretching, jumping on one leg, and jumping",Other
+141_34,Run,Run
+142_01,Childish,Other
+142_02,Clumsy,Other
+142_03,Clumsy,Other
+142_04,Cool,Other
+142_05,Depressed,Other
+142_06,Elated,Other
+142_07,Elderlyman,Other
+142_08,Happy,Other
+142_09,Joy,Other
+142_10,Lavish,Other
+142_11,Marching,Other
+142_12,Painfulleftknee,Other
+142_13,Relaxed,Other
+142_14,Rushed,Other
+142_15,Sad,Other
+142_16,Scared,Other
+142_17,Scared,Other
+142_18,Sexy,Other
+142_19,Shy,Other
+142_20,Singing in the rain jump,Other
+142_21,Singing in the rain jump,Other
+142_22,Sneaky,Other
+143_01,Run,Run
+143_02,Run to Stop,Run
+143_03,Start to Run,Run
+143_04,Run Figure 8,Run
+143_05,Jumping Distances,Other
+143_06,Jumping Heights,Other
+143_07,Jumping Sideways,Other
+143_08,Jumping Twists,Other
+143_09,Jumping Twists,Other
+144_34,Walking001,Walk
+91_02,WalkStraight,Walk
+91_36,WalkStraight,Walk
+105_02,WalkStraight,Walk
+105_36,WalkStraight,Walk
+15_04,"wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing",Other
+15_05,"wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing",Other
+15_12,"wash windows; basketball - dribble, lay-up shot, pass; throw ball; dance - Egyptian walk, the Dive, the Twist; strew",Other
+143_18,Sit Down And Get Up,Other
+143_19,Sit On Stool And Get Up,Other
+143_20,Catch And Throw,Other
+143_21,Range Of Motion,Other
+143_22,Catch And Throw Football,Other
+143_23,Punching,Other
+143_24,Kicking,Other
+143_25,Waving,Other
+143_26,Washing Window,Other
+143_27,Washing Window,Other
+143_28,"Sweeping, Push Broom",Other
+143_29,Pacing,Other
+143_30,Stretch And Yawn,Other
+143_31,Hopscotch,Other
+143_32,Walk,Walk
+143_33,Peek A Boo,Other
+143_34,Chicken Dance,Other
+143_35,Macarena Dance,Other
+143_36,Airplane,Other
+143_37,Climb Up And Down Ladder,Other
+17_06,"whistle, walk jauntily",Walk
+17_07,"whistle, walk jauntily",Walk
+104_41,ZombieWalk,Other
+143_41,Sneak,Other
+143_42,Run,Run
+144_01,Cartwheels,Other
+144_02,Cartwheels001,Other
+144_03,Figure8s,Other
+144_04,Figure8s001,Other
+144_05,Front_Kicking,Other
+144_06,Front_Kicking001,Other
+144_07,Left_Blocks,Other
+144_08,Left_Blocks001,Other
+144_09,Left_Front_Kicking,Other
+144_10,Left_Front_Kicking001,Other
+144_11,Left_Lunges,Other
+144_12,Left_Lunges001,Other
+144_13,Left_Punch_Sequence001,Other
+144_14,Left_Punch_Sequence002,Other
+144_15,Left_Spin_reach001,Other
+144_16,Left_Spin_reach002,Other
+144_17,Lunges,Other
+144_18,Lunges001,Other
+144_19,motorcycle pose,Other
+144_20,Punch_Sequence,Other
+144_21,Punch_Sequence001,Other
+144_22,Reach_Left001,Other
+144_23,Reach_Left002,Other
+144_24,Reach_Right,Other
+144_25,Reach_Right001,Other
+144_26,Right_Blocks,Other
+144_27,Right_Blocks001,Other
+144_28,Right_Spin_reach,Other
+144_29,Right_Spin_reach001,Other
+144_30,Sun Salutation,Other
+144_31,Sun Salutation001,Other
+144_32,Sun Salutation002,Other
+104_42,ZombieWalk8,Other
+104_43,ZombieWalkRightAngleTurns,Other

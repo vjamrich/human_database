@@ -6,6 +6,10 @@
     "Normal": "Normal map",
     "Mist": "Mist map",
 
+    "target_name": "Motion (.bvh) name",
+    "target_category": "Motion category",
+    "target_label": "Motion description",
+
     "macrodetails/Gender": "Sex [0=Female, 1=male]",
     "macrodetails/Age": "Age",
 

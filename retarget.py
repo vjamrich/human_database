@@ -44,7 +44,7 @@ if __name__ == "__main__":
     with open(r"Data\project_tmp.json", "r") as json_project:
         structure = json.load(json_project)
 
-    with open(r"Data\bvh_frames_tmp.json", "r") as json_targets:
+    with open(r"Data\bvh_index.json", "r") as json_targets:
         targets = json.load(json_targets)
 
     _, version, _ = bpy.app.version
@@ -57,13 +57,27 @@ if __name__ == "__main__":
         name = os.path.splitext(os.path.basename(dae_file))[0]
         export = os.path.join(export_path, name+".blend")
 
-        target_path, frames = random.choice(list(targets.items()))
+        target_category = random.choice(list(targets))
+        target_path, values = random.choice(list(targets[target_category].items()))
+        target_name = values["name"]
+        target_label = values["label"]
+        target_frames = values["frames"]
 
         bpy.ops.wm.read_homefile(use_empty=True)
         bpy.ops.wm.collada_import(filepath     = dae_file,
                                   import_units = True,
                                   find_chains  = True)
         toggle_xray(True)
-        mw_retarget(target       =target_path,
-                    frames_target=frames)
+        mw_retarget(target        = target_path,
+                    frames_target = target_frames)
         bpy.ops.wm.save_mainfile(filepath=export)
+
+        with open(os.path.join(structure["labels"], name+"_attributes.json"), "r") as json_attributes:
+            attributes = json.load(json_attributes)
+
+        attributes["target_name"] = target_name
+        attributes["target_category"] = target_category
+        attributes["target_label"] = target_label
+
+        with open(os.path.join(structure["labels"], name+"_attributes.json"), "w") as json_attributes:
+            json.dump(attributes, json_attributes, indent=4)

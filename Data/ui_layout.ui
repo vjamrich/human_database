@@ -82,9 +82,9 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>-240</y>
-         <width>545</width>
-         <height>982</height>
+         <y>0</y>
+         <width>600</width>
+         <height>859</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -362,8 +362,13 @@
              <string>Black &amp; White</string>
             </property>
             <property name="currentIndex">
-             <number>2</number>
+             <number>0</number>
             </property>
+            <item>
+             <property name="text">
+              <string>Black &amp; White</string>
+             </property>
+            </item>
             <item>
              <property name="text">
               <string>RGB</string>
@@ -372,11 +377,6 @@
             <item>
              <property name="text">
               <string>RGBA</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>Black &amp; White</string>
              </property>
             </item>
            </widget>
@@ -544,14 +544,22 @@
           </item>
           <item>
            <widget class="QComboBox" name="camera_anchor_combo_box">
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
             <item>
              <property name="text">
-              <string>Hips</string>
+              <string>Head</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>Head</string>
+              <string>Spine</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Hips</string>
              </property>
             </item>
            </widget>

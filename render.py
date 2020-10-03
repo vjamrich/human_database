@@ -213,8 +213,14 @@ def main():
 
         bpy.ops.object.mode_set(mode="OBJECT")
         bpy.ops.object.empty_add(type='PLAIN_AXES', align='WORLD', location=bone_loc, rotation=bone_rot)
-        camera_offset = Vector((0, 35, 0))
-        bpy.ops.object.camera_add(enter_editmode=False, align='VIEW', location=camera_offset, rotation=(0, 0, 0))
+
+        camera_distance = 2 * obj.dimensions.z
+
+        camera_offset = Vector((0, camera_distance, 0))
+        bpy.ops.object.camera_add(enter_editmode = False,
+                                  align          = 'VIEW',
+                                  location       = camera_offset,
+                                  rotation       = (0, 0, 0))
         empty = bpy.data.objects["Empty"]
         camera = bpy.data.objects["Camera"]
         bpy.data.scenes[0].camera = camera
@@ -232,7 +238,7 @@ def main():
         armature.data.bones.active = armature.pose.bones[bone_anchor].bone
         bpy.ops.object.parent_set(type='BONE')
 
-        rot_x, rot_y, rot_z = radians(random.randint(0, 0)), 0, radians(random.randint(180, 180))
+        rot_x, rot_y, rot_z = radians(random.randint(0, 60)), 0, radians(random.randint(100, 260))
         empty.rotation_euler = (rot_x, rot_y, rot_z)
 
         bpy.ops.object.mode_set(mode="OBJECT")
@@ -243,7 +249,7 @@ def main():
         hdris = [os.path.abspath(path) for path in glob.glob(fr"{config['data']['hdri']}/*.hdr")]
         hdri = random.choice(hdris)
 
-        set_world(hdri, strength=random.uniform(0.3, 0.5))
+        set_world(hdri, strength=random.uniform(0.4, 0.5))
         set_alpha()
 
         passes = {"Alpha" : config["render"]["alpha map"],

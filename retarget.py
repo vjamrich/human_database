@@ -14,7 +14,7 @@ def toggle_xray(state=True):
 
 def mw_retarget(target, frames_target):
     fps = bpy.context.scene.render.fps
-    frame = int((frames_target / 120) * fps)
+    frame = min(int((frames_target / 120) * fps), 20)
     obj = bpy.data.objects[0]
 
     if version >= 80:

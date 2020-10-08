@@ -1,11 +1,11 @@
 {
-    "root": "Output\\2020-09-22_17-54-33",
-    "dae_faces": "Output\\2020-09-22_17-54-33\\Input\\Input_dae\\clothesHideFaces_False",
-    "dae": "Output\\2020-09-22_17-54-33\\Input\\Input_dae\\clothesHideFaces_True",
-    "mhm_faces": "Output\\2020-09-22_17-54-33\\Input\\Input_mhm\\clothesHideFaces_False",
-    "mhm": "Output\\2020-09-22_17-54-33\\Input\\Input_mhm\\clothesHideFaces_True",
-    "retarget_blend": "Output\\2020-09-22_17-54-33\\Input\\Retarget_blend",
-    "material_blend": "Output\\2020-09-22_17-54-33\\Input\\Material_blend",
-    "labels": "Output\\2020-09-22_17-54-33\\Export\\Labels",
-    "output": "Output\\2020-09-22_17-54-33\\Export\\Output"
+    "root": "Output\\2020-10-03_19-26-36",
+    "dae_faces": "Output\\2020-10-03_19-26-36\\Input\\Input_dae\\clothesHideFaces_False",
+    "dae": "Output\\2020-10-03_19-26-36\\Input\\Input_dae\\clothesHideFaces_True",
+    "mhm_faces": "Output\\2020-10-03_19-26-36\\Input\\Input_mhm\\clothesHideFaces_False",
+    "mhm": "Output\\2020-10-03_19-26-36\\Input\\Input_mhm\\clothesHideFaces_True",
+    "retarget_blend": "Output\\2020-10-03_19-26-36\\Input\\Retarget_blend",
+    "material_blend": "Output\\2020-10-03_19-26-36\\Input\\Material_blend",
+    "labels": "Output\\2020-10-03_19-26-36\\Export\\Labels",
+    "output": "Output\\2020-10-03_19-26-36\\Export\\Output"
 }

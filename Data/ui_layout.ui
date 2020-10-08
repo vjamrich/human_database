@@ -785,9 +785,9 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="run_button">
+       <widget class="QPushButton" name="save_button">
         <property name="text">
-         <string>Run</string>
+         <string>Save</string>
         </property>
        </widget>
       </item>

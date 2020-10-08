@@ -1,6 +1,6 @@
 scipy~=1.4.1
 pyqt~=5.9.2
 qtmodern~=0.2.0
-Blender~=2.79b   # https://download.blender.org/release/Blender2.79/
-blender~=2.83.0  # https://download.blender.org/release/Blender2.83/
-MakeHuman~=1.2.0   # http://www.makehumancommunity.org/content/downloads.html
+Blender~=2.79b     # https://download.blender.org/release/Blender2.79/
+Blender~=2.83.0    # https://download.blender.org/release/Blender2.83/
+MakeHuman~=1.2.0   # http://makehumancommunity.org/content/downloads.html

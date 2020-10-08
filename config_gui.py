@@ -26,7 +26,7 @@ class Ui(QtWidgets.QMainWindow):
         for button_name, button in self.tool_buttons.items():
             button.clicked.connect(self.open_file_dialog)
         self.push_buttons["load_defaults_button"].clicked.connect(self.warning)
-        self.push_buttons["run_button"].clicked.connect(self.execute)
+        self.push_buttons["save_button"].clicked.connect(self.save_config)
         self.combo_boxes["file_format_combo_box"].currentTextChanged.connect(self.toggle_slider)
         self.slider.valueChanged.connect(self.update_slider_label)
 
@@ -108,6 +108,8 @@ class Ui(QtWidgets.QMainWindow):
         with open(r"config\config.json", "w") as json_config:
             json.dump(self.config, json_config, indent=4)
 
+        self.info()
+
     def load_config(self):
         convert = {"8": "8 bit",
                    "16": "16 bit",
@@ -154,6 +156,17 @@ class Ui(QtWidgets.QMainWindow):
 
         message.exec_()
 
+    def info(self):
+        message = QMessageBox()
+        message.setIcon(QMessageBox.Information)
+
+        message.setText("Configuration saved")
+        message.setWindowTitle("Info")
+        message.setWindowIcon(QtGui.QIcon(r"Data/info_icon.png"))
+        message.setStandardButtons(QMessageBox.Ok)
+
+        message.exec_()
+
     def load_defaults(self):
         with open(r"Data\default_config.json", "r") as json_config:
             self.config = json.load(json_config)
@@ -163,7 +176,6 @@ class Ui(QtWidgets.QMainWindow):
         print("EXECUTE")
 
     def closeEvent(self, event):
-        self.save_config()
         event.accept()
 
 
